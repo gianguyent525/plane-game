@@ -110,4 +110,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c523b7dcaaa753049823463df0d7d18e, type: 3}
   - {fileID: 21300000, guid: 51c30188932a5594cb628205d8563939, type: 3}
   - {fileID: 21300000, guid: b74be9947adcb5949894e051cc3807ee, type: 3}
-  frameRate: 10
+  frameRate: 12

@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class mainweapon : MonoBehaviour
 {
-    float timeToActtack = 1f;
+
+    public float timeToActtack = 0.5f; 
     float timer;
     [SerializeField] GameObject bullet;
+
+    [SerializeField] Transform[] firePoints;
+
     private void Update()
     {
         timer -= Time.deltaTime;
@@ -13,10 +17,17 @@ public class mainweapon : MonoBehaviour
             Attack();
         }
     }
+
     private void Attack()
     {
-        // This creates the bullet at the weapon's current position and rotation
-        Instantiate(bullet, transform.position, transform.rotation);
+
+        foreach (Transform point in firePoints)
+        {
+            if (point != null) 
+            {
+                Instantiate(bullet, point.position, point.rotation);
+            }
+        }
 
         timer = timeToActtack;
     }
