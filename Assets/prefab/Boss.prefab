@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1721102715403407277}
   - component: {fileID: 4890921792922681994}
   - component: {fileID: 1375190315242279042}
+  - component: {fileID: 6490387620398572059}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -181,7 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossMove
   speed: 2
-  stopY: 3
+  leftLimit: -4
+  rightLimit: 4
 --- !u!114 &1375190315242279042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +199,21 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2388727940556375224, guid: 35736373ca95122498b71d6e6f634ca8, type: 3}
   firePoint: {fileID: 2493517777144568620}
   fireRate: 1
+--- !u!114 &6490387620398572059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884804451575703695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31682894eecab04b95e3f24e4e90c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossHealth
+  maxHealth: 100
+  currentHealth: 100
+  healthBarFill: {fileID: 0}
 --- !u!1 &7474474943759348783
 GameObject:
   m_ObjectHideFlags: 0
