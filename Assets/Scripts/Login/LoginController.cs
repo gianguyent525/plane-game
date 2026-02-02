@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Text;
 using UnityEngine;
-using UnityEngine.Networking;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LoginController : MonoBehaviour
 {
@@ -11,84 +9,52 @@ public class LoginController : MonoBehaviour
     public TMP_InputField passwordInput;
     public TMP_Text messageText;
 
-    [Header("API")]
-    public string loginUrl = "http://localhost:8080/api/auth/login";
+    // 
+    private const string MOCK_USERNAME = "admin";
+    private const string MOCK_PASSWORD = "123456";
 
     public void OnLoginClicked()
     {
-        StartCoroutine(LoginCoroutine());
-    }
-
-    IEnumerator LoginCoroutine()
-    {
         messageText.gameObject.SetActive(false);
 
-        // 
-        if (string.IsNullOrEmpty(usernameInput.text) || passwordInput.text.Length < 6)
+        string username = usernameInput.text.Trim();
+        string password = passwordInput.text;
+
+        if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
         {
-            ShowError("Invalid username or password");
-            yield break;
+            ShowError("Please enter username and password");
+            return;
         }
 
-        // 
-        LoginRequest requestData = new LoginRequest
+        if (username == MOCK_USERNAME && password == MOCK_PASSWORD)
         {
-            username = usernameInput.text,
-            password = passwordInput.text
-        };
-
-        string json = JsonUtility.ToJson(requestData);
-
-        // 
-        UnityWebRequest request = new UnityWebRequest(loginUrl, "POST");
-        request.uploadHandler = new UploadHandlerRaw(Encoding.UTF8.GetBytes(json));
-        request.downloadHandler = new DownloadHandlerBuffer();
-        request.SetRequestHeader("Content-Type", "application/json");
-
-        // 
-        yield return request.SendWebRequest();
-
-        // 
-        if (request.result != UnityWebRequest.Result.Success)
-        {
-            ShowError("Server error");
-            Debug.LogError(request.error);
-            yield break;
-        }
-
-        Debug.Log("Response: " + request.downloadHandler.text);
-        Debug.Log("RAW RESPONSE = " + request.downloadHandler.text);
-
-
-        string raw = request.downloadHandler.text;
-        Debug.Log("RAW = " + raw);
-
-        LoginResponse response = JsonUtility.FromJson<LoginResponse>(raw);
-
-        Debug.Log("username = " + response.username);
-        Debug.Log("message = " + response.message);
-
-
-        // 
-        if (response.message.ToLower().Contains("success"))
-        {
-            messageText.text = "Welcome " + response.username;
-            messageText.color = Color.green;
-            messageText.gameObject.SetActive(true);
-
-            // 
-            // 
+            LoginSuccess();
         }
         else
         {
-            ShowError(response.message);
+            ShowError("Invalid username or password");
         }
+    }
+
+    void LoginSuccess()
+    {
+        messageText.text = "Login success!";
+        messageText.color = Color.green;
+        messageText.gameObject.SetActive(true);
+
+        // 
+        Invoke(nameof(LoadGameplay), 0.5f);
+    }
+
+    void LoadGameplay()
+    {
+        SceneManager.LoadScene("Gameplay");
     }
 
     void ShowError(string msg)
     {
         messageText.text = msg;
-        messageText.color = new Color32(255, 107, 107, 255);
+        messageText.color = new Color32(255, 90, 90, 255);
         messageText.gameObject.SetActive(true);
     }
 }
