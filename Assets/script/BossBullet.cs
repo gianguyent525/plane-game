@@ -4,9 +4,17 @@ public class BossBullet : MonoBehaviour
 {
     public float speed = 6f;
 
+    private Vector3 moveDirection;
+
+    void Start()
+    {
+        // Use bullet's rotation to determine direction
+        moveDirection = transform.rotation * Vector3.up;
+    }
+
     void Update()
     {
-        transform.position += Vector3.down * speed * Time.deltaTime;
+        transform.position += moveDirection * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D other)

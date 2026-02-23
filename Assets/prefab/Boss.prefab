@@ -198,7 +198,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossShoot
   bulletPrefab: {fileID: 2388727940556375224, guid: 35736373ca95122498b71d6e6f634ca8, type: 3}
   firePoint: {fileID: 2493517777144568620}
-  fireRate: 1
+  startFireRate: 1.2
+  minFireRate: 0.3
+  fireRateDecreasePerSecond: 0.01
+  currentPattern: 0
+  spreadBulletCount: 5
+  spreadAngle: 60
+  spiralSpeed: 15
+  waveAmplitude: 45
+  waveSpeed: 2
 --- !u!114 &6490387620398572059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f31682894eecab04b95e3f24e4e90c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossHealth
+  baseHealth: 100
+  healthPerSecond: 5
   maxHealth: 100
   currentHealth: 100
   healthBarFill: {fileID: 0}
