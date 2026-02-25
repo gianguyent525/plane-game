@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b17743de170457a468d228773039b20b
+guid: 5c0013382ecf3be4aacbb64103779e31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4056415550954931884
-    second: spr_player_strip4_0
+      213: 3997536254319578391
+    second: spr_player_hard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_strip4_0
+      name: spr_player_hard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,16 +113,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f9c6b02a57c75b244bc7d66123316e72
-      internalID: 4056415550954931884
+      spriteID: 71dc67f1b0a1a7730800000000000000
+      internalID: 3997536254319578391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_strip4_1
+      name: spr_player_hard_1
       rect:
         serializedVersion: 2
         x: 89
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f02055425497e4f90b9be1b0aa7d0d
-      internalID: 463374618
+      spriteID: ab57afe23b7d1ac4da620e0fc26c34f0
+      internalID: 345122892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_strip4_2
+      name: spr_player_hard_2
       rect:
         serializedVersion: 2
         x: 178
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23c8f30d89c4f214f94137b3f4a4f9e8
-      internalID: -1687701698
+      spriteID: b8f37f872d90b9741b5fe6d6c4eca450
+      internalID: -962010460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_strip4_3
+      name: spr_player_hard_3
       rect:
         serializedVersion: 2
         x: 267
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15accf4d315b6e04b82fdf9c1d904104
-      internalID: -587601720
+      spriteID: 23b38ac0c9cda6f4a83143725ba9e1ad
+      internalID: -363050959
       vertices: []
       indices: 
       edges: []
@@ -191,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 11ac3f8f3f2a53f47ac80f17b1ca992d
+    spriteID: 42a542fb6003920458725969cdc48aff
     internalID: 0
     vertices: []
     indices: 
@@ -202,13 +202,11 @@ TextureImporter:
       entries:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":89.0,"y":55.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
-      - key: SpriteEditor.SliceOnImport
-        value: False
     nameFileIdTable:
-      spr_player_strip4_0: 4056415550954931884
-      spr_player_strip4_1: 463374618
-      spr_player_strip4_2: -1687701698
-      spr_player_strip4_3: -587601720
+      spr_player_hard_0: 3997536254319578391
+      spr_player_hard_1: 345122892
+      spr_player_hard_2: -962010460
+      spr_player_hard_3: -363050959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
