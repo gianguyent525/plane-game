@@ -6,13 +6,17 @@ public class BossShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
 
-    [Header("Fire Rate")]
-    public float startFireRate = 1.2f;
-    public float minFireRate = 0.3f;
-    public float fireRateDecreasePerSecond = 0.01f;
+    [Header("Base Fire Rate Settings")]
+    public float startFireRate = 1.2f;   // Base fire rate
+    public float minFireRate = 0.25f;    // Fastest allowed
+    public float fireRateDecreasePerSecond = 0.005f;
 
     private float currentFireRate;
     private float fireTimer;
+
+    [Header("Spawn Difficulty Scaling")]
+    public float spawnTime;              // Set by spawner
+    public float difficultyMultiplier = 0.01f;
 
     [Header("Shooting Pattern")]
     public ShootPattern currentPattern;
@@ -25,21 +29,20 @@ public class BossShoot : MonoBehaviour
     public int vBulletCount = 4;
     public float vAngleStep = 12f;
 
-    [Header("Wave Settings")]
-    public float waveAmplitude = 45f;
-    public float waveSpeed = 2f;
-    private float waveTimer;
+    [Header("Cross Burst Settings")]
+    public int burstDirections = 8;
 
     void Start()
     {
-        currentFireRate = startFireRate;
+        // Scale fire rate based on when boss spawned
+        float difficulty = spawnTime * difficultyMultiplier;
+
+        currentFireRate = startFireRate - difficulty;
+        currentFireRate = Mathf.Clamp(currentFireRate, minFireRate, startFireRate);
     }
 
     void Update()
     {
-        currentFireRate -= fireRateDecreasePerSecond * Time.deltaTime;
-        currentFireRate = Mathf.Max(minFireRate, currentFireRate);
-
         fireTimer += Time.deltaTime;
 
         if (fireTimer >= currentFireRate)
@@ -65,8 +68,8 @@ public class BossShoot : MonoBehaviour
                 ShootVShape();
                 break;
 
-            case ShootPattern.Wave:
-                ShootWave();
+            case ShootPattern.CrossBurst:
+                ShootCrossBurst();
                 break;
         }
     }
@@ -75,10 +78,11 @@ public class BossShoot : MonoBehaviour
 
     void ShootStraight()
     {
-        // Directly aim downward in world space
         Vector3 direction = Vector3.down;
 
-        Quaternion rot = Quaternion.LookRotation(Vector3.forward, direction);
+        Quaternion rot =
+            Quaternion.LookRotation(Vector3.forward, direction);
+
         Instantiate(bulletPrefab, firePoint.position, rot);
     }
 
@@ -89,12 +93,11 @@ public class BossShoot : MonoBehaviour
             float angleOffset = -spreadAngle / 2f +
                                 spreadAngle * i / (spreadBulletCount - 1);
 
-            Vector3 baseDirection = Vector3.down;
-            Vector3 rotatedDirection =
-                Quaternion.Euler(0, 0, angleOffset) * baseDirection;
+            Vector3 direction =
+                Quaternion.Euler(0, 0, angleOffset) * Vector3.down;
 
             Quaternion rot =
-                Quaternion.LookRotation(Vector3.forward, rotatedDirection);
+                Quaternion.LookRotation(Vector3.forward, direction);
 
             Instantiate(bulletPrefab, firePoint.position, rot);
         }
@@ -108,7 +111,7 @@ public class BossShoot : MonoBehaviour
         {
             float angleOffset = i * vAngleStep;
 
-            // LEFT ARM
+            // Left side
             Vector3 leftDir =
                 Quaternion.Euler(0, 0, angleOffset) * baseDirection;
 
@@ -117,7 +120,7 @@ public class BossShoot : MonoBehaviour
 
             Instantiate(bulletPrefab, firePoint.position, leftRot);
 
-            // RIGHT ARM
+            // Right side
             Vector3 rightDir =
                 Quaternion.Euler(0, 0, -angleOffset) * baseDirection;
 
@@ -126,22 +129,22 @@ public class BossShoot : MonoBehaviour
 
             Instantiate(bulletPrefab, firePoint.position, rightRot);
         }
-
     }
 
-    void ShootWave()
+    void ShootCrossBurst()
     {
-        waveTimer += Time.deltaTime * waveSpeed;
-        float waveOffset = Mathf.Sin(waveTimer) * waveAmplitude;
+        for (int i = 0; i < burstDirections; i++)
+        {
+            float angle = i * (360f / burstDirections);
 
-        Vector3 baseDirection = Vector3.down;
-        Vector3 rotatedDirection =
-            Quaternion.Euler(0, 0, waveOffset) * baseDirection;
+            Vector3 direction =
+                Quaternion.Euler(0, 0, angle) * Vector3.down;
 
-        Quaternion rot =
-            Quaternion.LookRotation(Vector3.forward, rotatedDirection);
+            Quaternion rot =
+                Quaternion.LookRotation(Vector3.forward, direction);
 
-        Instantiate(bulletPrefab, firePoint.position, rot);
+            Instantiate(bulletPrefab, firePoint.position, rot);
+        }
     }
 }
 
@@ -150,5 +153,5 @@ public enum ShootPattern
     Straight,
     Spread,
     ShootVShape,
-    Wave
+    CrossBurst
 }

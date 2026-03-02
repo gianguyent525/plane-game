@@ -5,7 +5,7 @@ public class BossHealth : MonoBehaviour
 {
     [Header("Health Settings")]
     public float baseHealth = 100f;
-    public float healthPerSecond = 5f; 
+    public float healthPerSecond = 5f;
 
     public float maxHealth;
     public float currentHealth;
@@ -13,20 +13,16 @@ public class BossHealth : MonoBehaviour
     [Header("UI")]
     public Image healthBarFill;
 
+    [Header("Death Settings")]
+    public GameObject deathEffect;
+
+    private bool isDead = false;
+
     void Start()
     {
         ScaleHealthWithTime();
         currentHealth = maxHealth;
         UpdateHealthBar();
-    }
-
-    void Update()
-    {
-        // test damage
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10f);
-        }
     }
 
     void ScaleHealthWithTime()
@@ -37,8 +33,18 @@ public class BossHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isDead) return;
+
         currentHealth -= damage;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            UpdateHealthBar();
+            Die();
+            return;
+        }
+
         UpdateHealthBar();
     }
 
@@ -49,4 +55,19 @@ public class BossHealth : MonoBehaviour
             healthBarFill.fillAmount = currentHealth / maxHealth;
         }
     }
-}
+
+    void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+
+        Debug.Log("Boss Died");
+
+        if (deathEffect != null)
+        {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+        }
+
+        Destroy(gameObject);
+    }
+}  
