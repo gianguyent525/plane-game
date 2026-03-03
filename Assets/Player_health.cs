@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Player_health : MonoBehaviour
@@ -13,8 +13,23 @@ public class Player_health : MonoBehaviour
         //currentHealth = maxHealth;
         UpdateHearts();
     }
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
 
-    
+        if (currentHealth < 0)
+            currentHealth = 0;
+
+        UpdateHearts();
+
+        if (currentHealth <= 0)
+        {
+            Debug.Log("Player chết!");
+            Destroy(gameObject);
+        }
+    }
+
+
 
     void UpdateHearts()
     {
@@ -32,3 +47,7 @@ public class Player_health : MonoBehaviour
         }
     }
 }
+
+
+ 
+
