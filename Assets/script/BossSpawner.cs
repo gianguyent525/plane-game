@@ -14,7 +14,6 @@ public class BossSpawner : MonoBehaviour
         if (currentBoss != null)
             return;
 
-        // Count time after boss is dead
         timer += Time.deltaTime;
 
         if (timer >= spawnInterval)
@@ -22,7 +21,7 @@ public class BossSpawner : MonoBehaviour
             currentBoss = Instantiate(
                 bossPrefab,
                 new Vector3(0, 3f, 0),
-                Quaternion.identity
+                bossPrefab.transform.rotation   // ? USE PREFAB ROTATION
             );
 
             timer = 0f;

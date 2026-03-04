@@ -7,15 +7,15 @@ public class BossShoot : MonoBehaviour
     public Transform firePoint;
 
     [Header("Base Fire Rate Settings")]
-    public float startFireRate = 1.2f;   // Base fire rate
-    public float minFireRate = 0.25f;    // Fastest allowed
+    public float startFireRate = 1.2f;
+    public float minFireRate = 0.25f;
     public float fireRateDecreasePerSecond = 0.005f;
 
     private float currentFireRate;
     private float fireTimer;
 
     [Header("Spawn Difficulty Scaling")]
-    public float spawnTime;              // Set by spawner
+    public float spawnTime;
     public float difficultyMultiplier = 0.01f;
 
     [Header("Shooting Pattern")]
@@ -25,16 +25,20 @@ public class BossShoot : MonoBehaviour
     public int spreadBulletCount = 5;
     public float spreadAngle = 60f;
 
-    [Header("V-Shape Settings")]
-    public int vBulletCount = 4;
-    public float vAngleStep = 12f;
+    [Header("Side Barrage Settings")]
+    public float sideAngle = 25f;
+    private bool shootLeftNext = true;
 
     [Header("Cross Burst Settings")]
     public int burstDirections = 8;
 
     void Start()
     {
-        // Scale fire rate based on when boss spawned
+        // ?? RANDOM PATTERN ON SPAWN
+        currentPattern = (ShootPattern)Random.Range(0, System.Enum.GetValues(typeof(ShootPattern)).Length);
+
+        Debug.Log("Boss Chosen Pattern: " + currentPattern);
+
         float difficulty = spawnTime * difficultyMultiplier;
 
         currentFireRate = startFireRate - difficulty;
@@ -64,8 +68,8 @@ public class BossShoot : MonoBehaviour
                 ShootSpread();
                 break;
 
-            case ShootPattern.ShootVShape:
-                ShootVShape();
+            case ShootPattern.SideBarrage:
+                ShootSideBarrage();
                 break;
 
             case ShootPattern.CrossBurst:
@@ -79,10 +83,7 @@ public class BossShoot : MonoBehaviour
     void ShootStraight()
     {
         Vector3 direction = Vector3.down;
-
-        Quaternion rot =
-            Quaternion.LookRotation(Vector3.forward, direction);
-
+        Quaternion rot = Quaternion.LookRotation(Vector3.forward, direction);
         Instantiate(bulletPrefab, firePoint.position, rot);
     }
 
@@ -103,32 +104,23 @@ public class BossShoot : MonoBehaviour
         }
     }
 
-    void ShootVShape()
+    void ShootSideBarrage()
     {
+        ShootStraight();
+
         Vector3 baseDirection = Vector3.down;
 
-        for (int i = 1; i <= vBulletCount; i++)
-        {
-            float angleOffset = i * vAngleStep;
+        float angle = shootLeftNext ? sideAngle : -sideAngle;
 
-            // Left side
-            Vector3 leftDir =
-                Quaternion.Euler(0, 0, angleOffset) * baseDirection;
+        Vector3 sideDirection =
+            Quaternion.Euler(0, 0, angle) * baseDirection;
 
-            Quaternion leftRot =
-                Quaternion.LookRotation(Vector3.forward, leftDir);
+        Quaternion rot =
+            Quaternion.LookRotation(Vector3.forward, sideDirection);
 
-            Instantiate(bulletPrefab, firePoint.position, leftRot);
+        Instantiate(bulletPrefab, firePoint.position, rot);
 
-            // Right side
-            Vector3 rightDir =
-                Quaternion.Euler(0, 0, -angleOffset) * baseDirection;
-
-            Quaternion rightRot =
-                Quaternion.LookRotation(Vector3.forward, rightDir);
-
-            Instantiate(bulletPrefab, firePoint.position, rightRot);
-        }
+        shootLeftNext = !shootLeftNext;
     }
 
     void ShootCrossBurst()
@@ -152,6 +144,6 @@ public enum ShootPattern
 {
     Straight,
     Spread,
-    ShootVShape,
+    SideBarrage,
     CrossBurst
 }

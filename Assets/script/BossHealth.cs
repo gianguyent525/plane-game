@@ -7,21 +7,65 @@ public class BossHealth : MonoBehaviour
     public float baseHealth = 100f;
     public float healthPerSecond = 5f;
 
-    public float maxHealth;
-    public float currentHealth;
-
-    [Header("UI")]
-    public Image healthBarFill;
-
     [Header("Death Settings")]
     public GameObject deathEffect;
 
+    private float maxHealth;
+    private float currentHealth;
+
+    private GameObject bossHealthUI;
+    private Image healthBarFill;
+
     private bool isDead = false;
+
+    void Awake()
+    {
+        // Unity 6 safe method
+        Canvas canvas = Object.FindFirstObjectByType<Canvas>();
+
+        if (canvas == null)
+        {
+            Debug.LogError("Canvas not found in scene!");
+            return;
+        }
+
+        // Must match name exactly
+        Transform uiTransform = canvas.transform.Find("BossHealth");
+
+        if (uiTransform == null)
+        {
+            Debug.LogError("BossHealth object not found under Canvas!");
+            return;
+        }
+
+        bossHealthUI = uiTransform.gameObject;
+
+        healthBarFill = bossHealthUI.GetComponentInChildren<Image>();
+
+        if (healthBarFill == null)
+        {
+            Debug.LogError("No Image component found inside BossHealth!");
+            return;
+        }
+
+        // Hide at start
+        bossHealthUI.SetActive(false);
+    }
 
     void Start()
     {
+        Debug.Log("Boss Spawned");
+
         ScaleHealthWithTime();
+
+        if (maxHealth <= 0)
+            maxHealth = baseHealth;
+
         currentHealth = maxHealth;
+
+        if (bossHealthUI != null)
+            bossHealthUI.SetActive(true);
+
         UpdateHealthBar();
     }
 
@@ -36,21 +80,17 @@ public class BossHealth : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
-
-        if (currentHealth <= 0)
-        {
-            currentHealth = 0;
-            UpdateHealthBar();
-            Die();
-            return;
-        }
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         UpdateHealthBar();
+
+        if (currentHealth <= 0)
+            Die();
     }
 
     void UpdateHealthBar()
     {
-        if (healthBarFill != null)
+        if (healthBarFill != null && maxHealth > 0)
         {
             healthBarFill.fillAmount = currentHealth / maxHealth;
         }
@@ -63,11 +103,12 @@ public class BossHealth : MonoBehaviour
 
         Debug.Log("Boss Died");
 
+        if (bossHealthUI != null)
+            bossHealthUI.SetActive(false);
+
         if (deathEffect != null)
-        {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
-        }
 
         Destroy(gameObject);
     }
-}  
+}
