@@ -40,6 +40,11 @@ public class WeatherEffectController : MonoBehaviour
 
         // if (!prefab) return;
 
+        if(type.ToString() == "Clear")
+        {
+            return;
+        }
+
         if (!prefab)
         {
             Debug.LogWarning($"No prefab assigned for weather type: {type}");
