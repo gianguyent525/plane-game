@@ -26,7 +26,22 @@ public class WeatherManager : MonoBehaviour
         }
         else
         {
-            StartCoroutine(apiClient.GetWeather(10.8231f, 106.6297f, OnWeatherReceived));
+            StartCoroutine(FetchWeatherPeriodically());
+
+        }
+    }
+
+    System.Collections.IEnumerator FetchWeatherPeriodically()
+    {
+        while (true)
+        {
+            float lat = Random.Range(-90f, 90f);      // vĩ độ
+            float lon = Random.Range(-180f, 180f);    // kinh độ
+
+            yield return StartCoroutine(apiClient.GetWeather(lat, lon, OnWeatherReceived));
+
+            yield return new UnityEngine.WaitForSeconds(10f);
+            Debug.Log("lat: " + lat + ", lon: " + lon);
         }
     }
 
