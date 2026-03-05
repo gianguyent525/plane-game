@@ -939,6 +939,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 10
   vfxRenderer: {fileID: 4269361760707146308, guid: ed21c5592be361640ae5fd6b45090d15, type: 3}
+  paddingLeft: 0.2
+  paddingRight: 0.2
+  paddingTop: 0
+  paddingBottom: 0
 --- !u!4 &1557804464
 Transform:
   m_ObjectHideFlags: 0
@@ -1124,7 +1128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeatherManager
   useManualWeather: 1
-  manualWeather: 5
+  manualWeather: 4
   apiClient: {fileID: 1284313804}
   effectController: {fileID: 2120821790}
   gameplayModifier: {fileID: 868200958}
@@ -1226,7 +1230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeatherEffectController
   rainPrefab: {fileID: 59109420278773688, guid: 84542fa62cb3aff45ba47dc3cacd4a0a, type: 3}
   snowPrefab: {fileID: 58010852784061876, guid: a953ce42d10e24144aaf25128888d258, type: 3}
-  atmospherePrefab: {fileID: 4261026770538686924, guid: ed21c5592be361640ae5fd6b45090d15, type: 3}
+  atmospherePrefab: {fileID: 5480910387950537951, guid: ed21c5592be361640ae5fd6b45090d15, type: 3}
   stormPrefab: {fileID: 4848901242027766400, guid: 75d3fbecd1e850f41b5d9edf78a9c465, type: 3}
   cloudPrefab: {fileID: 8728796442831981765, guid: 6efd3afa8d8ef394bb0ecdc925df6c7e, type: 3}
   darkOverlay: {fileID: 189496777}
