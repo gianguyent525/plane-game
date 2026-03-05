@@ -1127,8 +1127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d5cc2e2257efb947a43041ce3976b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeatherManager
-  useManualWeather: 1
-  manualWeather: 4
+  useManualWeather: 0
+  manualWeather: 5
   apiClient: {fileID: 1284313804}
   effectController: {fileID: 2120821790}
   gameplayModifier: {fileID: 868200958}
