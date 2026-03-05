@@ -42,6 +42,7 @@ public class WeatherEffectController : MonoBehaviour
 
         if(type.ToString() == "Clear")
         {
+            Debug.Log($"Instantiating prefab: Clear_effect");
             return;
         }
 
