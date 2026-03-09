@@ -1,0 +1,6487 @@
+fileFormatVersion: 2
+guid: c523b7dcaaa753049823463df0d7d18e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9026556615443062635
+    second: rain_drops-02_0
+  - first:
+      213: 4908181701558937493
+    second: rain_drops-02_1
+  - first:
+      213: -5036244934991543106
+    second: rain_drops-02_2
+  - first:
+      213: -3864485608986714179
+    second: rain_drops-02_3
+  - first:
+      213: 2088145407577539403
+    second: rain_drops-02_4
+  - first:
+      213: -4980542827443853520
+    second: rain_drops-02_5
+  - first:
+      213: 3945037498102661816
+    second: rain_drops-02_6
+  - first:
+      213: 8969889191347107865
+    second: rain_drops-02_7
+  - first:
+      213: 8398952129977047208
+    second: rain_drops-02_8
+  - first:
+      213: -1977893326574912525
+    second: rain_drops-02_9
+  - first:
+      213: -2919224487943424148
+    second: rain_drops-02_10
+  - first:
+      213: 5594703479077771614
+    second: rain_drops-02_11
+  - first:
+      213: -4629052206541001439
+    second: rain_drops-02_12
+  - first:
+      213: 6124926923701334261
+    second: rain_drops-02_13
+  - first:
+      213: 3391321257902075803
+    second: rain_drops-02_14
+  - first:
+      213: 7851919127578330329
+    second: rain_drops-02_15
+  - first:
+      213: 5652186660563308768
+    second: rain_drops-02_16
+  - first:
+      213: 3723186983875173461
+    second: rain_drops-02_17
+  - first:
+      213: -287189641601854481
+    second: rain_drops-02_18
+  - first:
+      213: 5340919975335330921
+    second: rain_drops-02_19
+  - first:
+      213: -8879773377724158031
+    second: rain_drops-02_20
+  - first:
+      213: -7739883638040768576
+    second: rain_drops-02_21
+  - first:
+      213: -5331547876527831731
+    second: rain_drops-02_22
+  - first:
+      213: 7835018558045397563
+    second: rain_drops-02_23
+  - first:
+      213: -7312093900744667485
+    second: rain_drops-02_24
+  - first:
+      213: 1731048204233647463
+    second: rain_drops-02_25
+  - first:
+      213: -5568670569259314733
+    second: rain_drops-02_26
+  - first:
+      213: 3686076264198738237
+    second: rain_drops-02_27
+  - first:
+      213: 639217012256263065
+    second: rain_drops-02_28
+  - first:
+      213: -6247954939906983088
+    second: rain_drops-02_29
+  - first:
+      213: 8685680420611716612
+    second: rain_drops-02_30
+  - first:
+      213: 2790688008886717659
+    second: rain_drops-02_31
+  - first:
+      213: -8926183375038064281
+    second: rain_drops-02_32
+  - first:
+      213: -5892398156759348313
+    second: rain_drops-02_33
+  - first:
+      213: -8909670996792724432
+    second: rain_drops-02_34
+  - first:
+      213: 431879132098592790
+    second: rain_drops-02_35
+  - first:
+      213: 6074734060652187031
+    second: rain_drops-02_36
+  - first:
+      213: -3771814043220782604
+    second: rain_drops-02_37
+  - first:
+      213: 1505869836978963310
+    second: rain_drops-02_38
+  - first:
+      213: -2634096966268002117
+    second: rain_drops-02_39
+  - first:
+      213: 1553116490499107721
+    second: rain_drops-02_40
+  - first:
+      213: 8692371696098563110
+    second: rain_drops-02_41
+  - first:
+      213: -3716785465749661764
+    second: rain_drops-02_42
+  - first:
+      213: -4310059473843975058
+    second: rain_drops-02_43
+  - first:
+      213: 704783776412642145
+    second: rain_drops-02_44
+  - first:
+      213: 8409087686773544775
+    second: rain_drops-02_45
+  - first:
+      213: 66842679362764182
+    second: rain_drops-02_46
+  - first:
+      213: 8585515391551331395
+    second: rain_drops-02_47
+  - first:
+      213: -2863214616864309882
+    second: rain_drops-02_48
+  - first:
+      213: 7197814541909927444
+    second: rain_drops-02_49
+  - first:
+      213: 1057150465471752906
+    second: rain_drops-02_50
+  - first:
+      213: 3742374209248513821
+    second: rain_drops-02_51
+  - first:
+      213: 2531051997363907656
+    second: rain_drops-02_52
+  - first:
+      213: -7481535387901944203
+    second: rain_drops-02_53
+  - first:
+      213: 3720468839682756051
+    second: rain_drops-02_54
+  - first:
+      213: -3242583651346500573
+    second: rain_drops-02_55
+  - first:
+      213: 257776150461533048
+    second: rain_drops-02_56
+  - first:
+      213: -1798020091858763197
+    second: rain_drops-02_57
+  - first:
+      213: -1082183341579578964
+    second: rain_drops-02_58
+  - first:
+      213: -8798097532863535607
+    second: rain_drops-02_59
+  - first:
+      213: -5020724048012983495
+    second: rain_drops-02_60
+  - first:
+      213: 5252533519111229805
+    second: rain_drops-02_61
+  - first:
+      213: -5338149561877509221
+    second: rain_drops-02_62
+  - first:
+      213: 1415932420005805454
+    second: rain_drops-02_63
+  - first:
+      213: -2749146901864681765
+    second: rain_drops-02_64
+  - first:
+      213: -8153329960485183124
+    second: rain_drops-02_65
+  - first:
+      213: -5650399612311910163
+    second: rain_drops-02_66
+  - first:
+      213: 8271589284623619145
+    second: rain_drops-02_67
+  - first:
+      213: -7242710588396253255
+    second: rain_drops-02_68
+  - first:
+      213: 5274643628158155499
+    second: rain_drops-02_69
+  - first:
+      213: 984296238817015121
+    second: rain_drops-02_70
+  - first:
+      213: -913528988759456871
+    second: rain_drops-02_71
+  - first:
+      213: -7842737135795999698
+    second: rain_drops-02_72
+  - first:
+      213: -1253830734556885409
+    second: rain_drops-02_73
+  - first:
+      213: 6172156007140995333
+    second: rain_drops-02_74
+  - first:
+      213: 2902981596419168471
+    second: rain_drops-02_75
+  - first:
+      213: 1727503473089918430
+    second: rain_drops-02_76
+  - first:
+      213: 7782487293309475133
+    second: rain_drops-02_77
+  - first:
+      213: 5364598723749069340
+    second: rain_drops-02_78
+  - first:
+      213: 2044004539119478373
+    second: rain_drops-02_79
+  - first:
+      213: 4830213601812436
+    second: rain_drops-02_80
+  - first:
+      213: 2624445110981061190
+    second: rain_drops-02_81
+  - first:
+      213: -2714832013652925754
+    second: rain_drops-02_82
+  - first:
+      213: 3797821010709093518
+    second: rain_drops-02_83
+  - first:
+      213: -1340490518946279287
+    second: rain_drops-02_84
+  - first:
+      213: -729614677934582163
+    second: rain_drops-02_85
+  - first:
+      213: 3719735223695463119
+    second: rain_drops-02_86
+  - first:
+      213: 2232805215579328151
+    second: rain_drops-02_87
+  - first:
+      213: -1389060860389800696
+    second: rain_drops-02_88
+  - first:
+      213: 5929073533576763155
+    second: rain_drops-02_89
+  - first:
+      213: 1117502361677752950
+    second: rain_drops-02_90
+  - first:
+      213: 7381799764392176498
+    second: rain_drops-02_91
+  - first:
+      213: -8669321183425695812
+    second: rain_drops-02_92
+  - first:
+      213: -2296444455094885227
+    second: rain_drops-02_93
+  - first:
+      213: 8175765387966399037
+    second: rain_drops-02_94
+  - first:
+      213: -6349469052231942271
+    second: rain_drops-02_95
+  - first:
+      213: -1278729233367328408
+    second: rain_drops-02_96
+  - first:
+      213: -4494801996681771009
+    second: rain_drops-02_97
+  - first:
+      213: -4064551189370401724
+    second: rain_drops-02_98
+  - first:
+      213: 1135259074929403011
+    second: rain_drops-02_99
+  - first:
+      213: -8006536483506423178
+    second: rain_drops-02_100
+  - first:
+      213: -7066537686894982753
+    second: rain_drops-02_101
+  - first:
+      213: -3442068998294750962
+    second: rain_drops-02_102
+  - first:
+      213: 2627861365045317582
+    second: rain_drops-02_103
+  - first:
+      213: 8487507306999116895
+    second: rain_drops-02_104
+  - first:
+      213: -2639590679614679798
+    second: rain_drops-02_105
+  - first:
+      213: -6699216059001999319
+    second: rain_drops-02_106
+  - first:
+      213: -8878408528091286044
+    second: rain_drops-02_107
+  - first:
+      213: -2216035042405305298
+    second: rain_drops-02_108
+  - first:
+      213: -6610091717779993926
+    second: rain_drops-02_109
+  - first:
+      213: -3333287139220926397
+    second: rain_drops-02_110
+  - first:
+      213: 4208591896109970642
+    second: rain_drops-02_111
+  - first:
+      213: -6853175473557506660
+    second: rain_drops-02_112
+  - first:
+      213: -5489341627078680981
+    second: rain_drops-02_113
+  - first:
+      213: -2089165278532018999
+    second: rain_drops-02_114
+  - first:
+      213: -2373847024063031312
+    second: rain_drops-02_115
+  - first:
+      213: -7253367843520539454
+    second: rain_drops-02_116
+  - first:
+      213: -1806754792077161511
+    second: rain_drops-02_117
+  - first:
+      213: 1055484540995255098
+    second: rain_drops-02_118
+  - first:
+      213: -8052087724876480119
+    second: rain_drops-02_119
+  - first:
+      213: 3714053977763824655
+    second: rain_drops-02_120
+  - first:
+      213: 8475900662350344753
+    second: rain_drops-02_121
+  - first:
+      213: -5019008344025431948
+    second: rain_drops-02_122
+  - first:
+      213: 4545243363388476656
+    second: rain_drops-02_123
+  - first:
+      213: -2972505084045253611
+    second: rain_drops-02_124
+  - first:
+      213: 4351948034834522413
+    second: rain_drops-02_125
+  - first:
+      213: 932749347843467560
+    second: rain_drops-02_126
+  - first:
+      213: 6908176026815753020
+    second: rain_drops-02_127
+  - first:
+      213: 3502585002504069758
+    second: rain_drops-02_128
+  - first:
+      213: -7632604557558231784
+    second: rain_drops-02_129
+  - first:
+      213: 8414665039720134345
+    second: rain_drops-02_130
+  - first:
+      213: 7156590061328639298
+    second: rain_drops-02_131
+  - first:
+      213: 6571077526003108694
+    second: rain_drops-02_132
+  - first:
+      213: 726671857649582467
+    second: rain_drops-02_133
+  - first:
+      213: -5692596359401026401
+    second: rain_drops-02_134
+  - first:
+      213: -1281608945536548771
+    second: rain_drops-02_135
+  - first:
+      213: 8420067454303009273
+    second: rain_drops-02_136
+  - first:
+      213: -5585288570332117842
+    second: rain_drops-02_137
+  - first:
+      213: -5453950768373307937
+    second: rain_drops-02_138
+  - first:
+      213: -595911855668066541
+    second: rain_drops-02_139
+  - first:
+      213: -4037989704841759827
+    second: rain_drops-02_140
+  - first:
+      213: 9143902043740779185
+    second: rain_drops-02_141
+  - first:
+      213: 6979515233296660840
+    second: rain_drops-02_142
+  - first:
+      213: -1980991063496067849
+    second: rain_drops-02_143
+  - first:
+      213: -416581451383662032
+    second: rain_drops-02_144
+  - first:
+      213: -3658559690052833959
+    second: rain_drops-02_145
+  - first:
+      213: -1581846582905545905
+    second: rain_drops-02_146
+  - first:
+      213: -1803929677375025416
+    second: rain_drops-02_147
+  - first:
+      213: -5412088130627984637
+    second: rain_drops-02_148
+  - first:
+      213: -8094079946831208886
+    second: rain_drops-02_149
+  - first:
+      213: 7620938712271490998
+    second: rain_drops-02_150
+  - first:
+      213: -4249353308451113842
+    second: rain_drops-02_151
+  - first:
+      213: -3499714898560206737
+    second: rain_drops-02_152
+  - first:
+      213: -1542207139831094695
+    second: rain_drops-02_153
+  - first:
+      213: 8321861217925973442
+    second: rain_drops-02_154
+  - first:
+      213: 5239355791002456578
+    second: rain_drops-02_155
+  - first:
+      213: -8062878461985770038
+    second: rain_drops-02_156
+  - first:
+      213: -3249047636435553950
+    second: rain_drops-02_157
+  - first:
+      213: 2478255909585668278
+    second: rain_drops-02_158
+  - first:
+      213: 6731490016475012846
+    second: rain_drops-02_159
+  - first:
+      213: 4177358516045268994
+    second: rain_drops-02_160
+  - first:
+      213: 4787142244031088887
+    second: rain_drops-02_161
+  - first:
+      213: -859814589973335916
+    second: rain_drops-02_162
+  - first:
+      213: 332898322759680899
+    second: rain_drops-02_163
+  - first:
+      213: -598799852497264371
+    second: rain_drops-02_164
+  - first:
+      213: -9121810828106858869
+    second: rain_drops-02_165
+  - first:
+      213: -246509683454861768
+    second: rain_drops-02_166
+  - first:
+      213: 1530422990934180257
+    second: rain_drops-02_167
+  - first:
+      213: -5446790706338212251
+    second: rain_drops-02_168
+  - first:
+      213: -7591868176965286647
+    second: rain_drops-02_169
+  - first:
+      213: 2135716565677681904
+    second: rain_drops-02_170
+  - first:
+      213: -2161223805895703228
+    second: rain_drops-02_171
+  - first:
+      213: -5740819971905252432
+    second: rain_drops-02_172
+  - first:
+      213: 4738928361549087203
+    second: rain_drops-02_173
+  - first:
+      213: 5601863701446227592
+    second: rain_drops-02_174
+  - first:
+      213: 6039079194289404673
+    second: rain_drops-02_175
+  - first:
+      213: 3404009761202162282
+    second: rain_drops-02_176
+  - first:
+      213: 1002400359526011112
+    second: rain_drops-02_177
+  - first:
+      213: -6727323140834660119
+    second: rain_drops-02_178
+  - first:
+      213: 3090225629447078604
+    second: rain_drops-02_179
+  - first:
+      213: 8854968191224697748
+    second: rain_drops-02_180
+  - first:
+      213: 632951735300807288
+    second: rain_drops-02_181
+  - first:
+      213: 930725616079109855
+    second: rain_drops-02_182
+  - first:
+      213: -1493057588471857713
+    second: rain_drops-02_183
+  - first:
+      213: -66700667819298192
+    second: rain_drops-02_184
+  - first:
+      213: -8067345060890244905
+    second: rain_drops-02_185
+  - first:
+      213: -463298286824279743
+    second: rain_drops-02_186
+  - first:
+      213: -3067885373692194956
+    second: rain_drops-02_187
+  - first:
+      213: 2923098308080409153
+    second: rain_drops-02_188
+  - first:
+      213: 3825426217812200353
+    second: rain_drops-02_189
+  - first:
+      213: -5036426509463433237
+    second: rain_drops-02_190
+  - first:
+      213: -8594347826647515381
+    second: rain_drops-02_191
+  - first:
+      213: 1826421467685572759
+    second: rain_drops-02_192
+  - first:
+      213: -433587234929816755
+    second: rain_drops-02_193
+  - first:
+      213: 1974151336676587822
+    second: rain_drops-02_194
+  - first:
+      213: 1577333693617357306
+    second: rain_drops-02_195
+  - first:
+      213: -1883199617704741361
+    second: rain_drops-02_196
+  - first:
+      213: 8573119628765895423
+    second: rain_drops-02_197
+  - first:
+      213: 5396000778876085379
+    second: rain_drops-02_198
+  - first:
+      213: -7022420957502036658
+    second: rain_drops-02_199
+  - first:
+      213: 3353109817752542789
+    second: rain_drops-02_200
+  - first:
+      213: -7816812461002386064
+    second: rain_drops-02_201
+  - first:
+      213: -3385562893494127206
+    second: rain_drops-02_202
+  - first:
+      213: 7012179987664670287
+    second: rain_drops-02_203
+  - first:
+      213: 5527912660339434694
+    second: rain_drops-02_204
+  - first:
+      213: 6750547411712364653
+    second: rain_drops-02_205
+  - first:
+      213: 7041561159154729435
+    second: rain_drops-02_206
+  - first:
+      213: -9223114084414115501
+    second: rain_drops-02_207
+  - first:
+      213: 8378111481734579279
+    second: rain_drops-02_208
+  - first:
+      213: -8297226636806012138
+    second: rain_drops-02_209
+  - first:
+      213: -2583957008775413118
+    second: rain_drops-02_210
+  - first:
+      213: 3550981466128200087
+    second: rain_drops-02_211
+  - first:
+      213: 2597054737969491791
+    second: rain_drops-02_212
+  - first:
+      213: -8485943639330536085
+    second: rain_drops-02_213
+  - first:
+      213: -7669897484483409608
+    second: rain_drops-02_214
+  - first:
+      213: -5761736545154630510
+    second: rain_drops-02_215
+  - first:
+      213: -7372320513930469090
+    second: rain_drops-02_216
+  - first:
+      213: -1264121929624565694
+    second: rain_drops-02_217
+  - first:
+      213: 2843559090850103219
+    second: rain_drops-02_218
+  - first:
+      213: -2317903410500565965
+    second: rain_drops-02_219
+  - first:
+      213: 1725385615218227318
+    second: rain_drops-02_220
+  - first:
+      213: -677747983670977599
+    second: rain_drops-02_221
+  - first:
+      213: -2159461845377970714
+    second: rain_drops-02_222
+  - first:
+      213: 2167874715388815837
+    second: rain_drops-02_223
+  - first:
+      213: -4935670036099564083
+    second: rain_drops-02_224
+  - first:
+      213: 486749207411020227
+    second: rain_drops-02_225
+  - first:
+      213: -4636184550880116930
+    second: rain_drops-02_226
+  - first:
+      213: -5827616839472650196
+    second: rain_drops-02_227
+  - first:
+      213: -1705149076397638622
+    second: rain_drops-02_228
+  - first:
+      213: -7369322834647611705
+    second: rain_drops-02_229
+  - first:
+      213: 8059838091330761663
+    second: rain_drops-02_230
+  - first:
+      213: -6609501995104594630
+    second: rain_drops-02_231
+  - first:
+      213: 8617177036131238825
+    second: rain_drops-02_232
+  - first:
+      213: -176333689472773473
+    second: rain_drops-02_233
+  - first:
+      213: 2871034936056149673
+    second: rain_drops-02_234
+  - first:
+      213: 5482472979701936161
+    second: rain_drops-02_235
+  - first:
+      213: -2462814674120621725
+    second: rain_drops-02_236
+  - first:
+      213: 5079662524603264251
+    second: rain_drops-02_237
+  - first:
+      213: 2594442173505051001
+    second: rain_drops-02_238
+  - first:
+      213: 5304192909025192437
+    second: rain_drops-02_239
+  - first:
+      213: -2847786930747807617
+    second: rain_drops-02_240
+  - first:
+      213: 7731071458254468952
+    second: rain_drops-02_241
+  - first:
+      213: -3579998439735239351
+    second: rain_drops-02_242
+  - first:
+      213: -5569361068699430072
+    second: rain_drops-02_243
+  - first:
+      213: 8464839852201855897
+    second: rain_drops-02_244
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rain_drops-02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f9f60ca65c44d70800000000000000
+      internalID: 9026556615443062635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 213
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5972e7eb04d5d1440800000000000000
+      internalID: 4908181701558937493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 217
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb408ff2ae9ab1ab0800000000000000
+      internalID: -5036244934991543106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 209
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfdcb440d69e5ac0800000000000000
+      internalID: -3864485608986714179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 203
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43c50a4f259afc10800000000000000
+      internalID: 2088145407577539403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 216
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037e69dbfae81eab0800000000000000
+      internalID: -4980542827443853520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 217
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2410ce3b69fb630800000000000000
+      internalID: 3945037498102661816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 213
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9183cdce1b27b7c70800000000000000
+      internalID: 8969889191347107865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_8
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8dac076721f8470800000000000000
+      internalID: 8398952129977047208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbf2e1bf7c1d84e0800000000000000
+      internalID: -1977893326574912525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 205
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67b2808bc4dc77d0800000000000000
+      internalID: -2919224487943424148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 204
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5992161c2164ad40800000000000000
+      internalID: 5594703479077771614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 208
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12da26e3b8d42cfb0800000000000000
+      internalID: -4629052206541001439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 195
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0b17af59c100550800000000000000
+      internalID: 6124926923701334261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 185
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9feb7057b4601f20800000000000000
+      internalID: 3391321257902075803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 209
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4c66468de97fc60800000000000000
+      internalID: 7851919127578330329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0d31b32d9907e40800000000000000
+      internalID: 5652186660563308768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 189
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cdc36e5da6ba330800000000000000
+      internalID: 3723186983875173461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 116
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe35625ea82b30cf0800000000000000
+      internalID: -287189641601854481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 204
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96486af8b62ce1a40800000000000000
+      internalID: 5340919975335330921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 152
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfe7c6f825b4c480800000000000000
+      internalID: -8879773377724158031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 207
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfc8bfb6d8669490800000000000000
+      internalID: -7739883638040768576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 194
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45029c34798206b0800000000000000
+      internalID: -5331547876527831731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_23
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 202
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32a3e8edd39bbc60800000000000000
+      internalID: 7835018558045397563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 184
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae40d1a659368a90800000000000000
+      internalID: -7312093900744667485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 199
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765ac669b2be50810800000000000000
+      internalID: 1731048204233647463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 191
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d150201f9b18b2b0800000000000000
+      internalID: -5568670569259314733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 198
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31909625d2972330800000000000000
+      internalID: 3686076264198738237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 190
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bcbe56c74fed800800000000000000
+      internalID: 639217012256263065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 189
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b7232d51eca49a0800000000000000
+      internalID: -6247954939906983088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 186
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4067027e25cb98870800000000000000
+      internalID: 8685680420611716612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 187
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc82a855f38ab620800000000000000
+      internalID: 2790688008886717659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769dbda6383df1480800000000000000
+      internalID: -8926183375038064281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 179
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab413f781ff93ea0800000000000000
+      internalID: -5892398156759348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 185
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034b1921f6d7a5480800000000000000
+      internalID: -8909670996792724432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_35
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 186
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61004ae48c75ef500800000000000000
+      internalID: 431879132098592790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 159
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dc32e517acd4450800000000000000
+      internalID: 6074734060652187031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 158
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1def29c13d7abc0800000000000000
+      internalID: -3771814043220782604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_38
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 167
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634b1763ace5e410800000000000000
+      internalID: 1505869836978963310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 161
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb069a5e3cec17bd0800000000000000
+      internalID: -2634096966268002117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_40
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b20072837cd8510800000000000000
+      internalID: 1553116490499107721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_41
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 163
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6245d91e00281a870800000000000000
+      internalID: 8692371696098563110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_42
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb718afaf435b6cc0800000000000000
+      internalID: -3716785465749661764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_43
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 165
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c09b48eb79f24c0800000000000000
+      internalID: -4310059473843975058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 167
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ba88c4c15e7c900800000000000000
+      internalID: 704783776412642145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7479f37a2b413b470800000000000000
+      internalID: 8409087686773544775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 156
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69db04f00197de000800000000000000
+      internalID: 66842679362764182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 166
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cd017b2c0e52770800000000000000
+      internalID: 8585515391551331395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_48
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68db816d971d348d0800000000000000
+      internalID: -2863214616864309882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_49
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 178
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416aea1b036c3e360800000000000000
+      internalID: 7197814541909927444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 158
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca25905fb0cbae00800000000000000
+      internalID: 1057150465471752906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 164
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f47dee3859fe330800000000000000
+      internalID: 3742374209248513821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 169
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c2beaa16a102320800000000000000
+      internalID: 2531051997363907656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_53
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 180
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e179d143f3c2890800000000000000
+      internalID: -7481535387901944203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 156
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd4333a2b2c1a330800000000000000
+      internalID: 3720468839682756051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_55
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 149
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324b00b59570003d0800000000000000
+      internalID: -3242583651346500573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_56
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 180
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bc3d70b0ec39300800000000000000
+      internalID: 257776150461533048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 175
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3424eb5b0462c07e0800000000000000
+      internalID: -1798020091858763197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1dd470cff4bf0f0800000000000000
+      internalID: -1082183341579578964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906ad6e78e0e6e580800000000000000
+      internalID: -8798097532863535607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 138
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933ccea441ec25ab0800000000000000
+      internalID: -5020724048012983495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d611571186fb4e840800000000000000
+      internalID: 5252533519111229805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_62
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b426691451be5b0800000000000000
+      internalID: -5338149561877509221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8db768b80766a310800000000000000
+      internalID: 1415932420005805454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 152
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde6df6557119d9d0800000000000000
+      internalID: -2749146901864681765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_65
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 149
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c612bb0699d89de80800000000000000
+      internalID: -8153329960485183124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_66
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8c42d5d7fb591b0800000000000000
+      internalID: -5650399612311910163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_67
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9441bed21a69ac270800000000000000
+      internalID: 8271589284623619145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_68
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 153
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf4ea7e719bc7b90800000000000000
+      internalID: -7242710588396253255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaf42dfe6c433940800000000000000
+      internalID: 5274643628158155499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_70
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 149
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155f074d63ce8ad00800000000000000
+      internalID: 984296238817015121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 144
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99388fc893e7253f0800000000000000
+      internalID: -913528988759456871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_72
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 148
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c6d1aa020092390800000000000000
+      internalID: -7842737135795999698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_73
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e054a079f799ee0800000000000000
+      internalID: -1253830734556885409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_74
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501beefdf27e7a550800000000000000
+      internalID: 6172156007140995333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d89f0c9166794820800000000000000
+      internalID: 2902981596419168471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 144
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed537cd814359f710800000000000000
+      internalID: 1727503473089918430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39d3bab5f2f00c60800000000000000
+      internalID: 7782487293309475133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_78
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 134
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c39bcd12e27a40800000000000000
+      internalID: 5364598723749069340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_79
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 125
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566a0897c43cd5c10800000000000000
+      internalID: 2044004539119478373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_80
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 129
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfdcedbd09211000800000000000000
+      internalID: 4830213601812436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_81
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 140
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a698c6ce6eb6420800000000000000
+      internalID: 2624445110981061190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 106
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2eb59daaaf25ad0800000000000000
+      internalID: -2714832013652925754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_83
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 140
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c94d7661294b430800000000000000
+      internalID: 3797821010709093518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_84
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 131
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9809d69a9fe956de0800000000000000
+      internalID: -1340490518946279287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_85
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d665ccae053efd5f0800000000000000
+      internalID: -729614677934582163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_86
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc250ea5a772f9330800000000000000
+      internalID: 3719735223695463119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_87
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ece3f73848cfe10800000000000000
+      internalID: 2232805215579328151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 117
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805411dc18019bce0800000000000000
+      internalID: -1389060860389800696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_89
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317530817fc484250800000000000000
+      internalID: 5929073533576763155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_90
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 128
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a66772a7a228f00800000000000000
+      internalID: 1117502361677752950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_91
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 133
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b68a776cb617660800000000000000
+      internalID: 7381799764392176498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_92
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 118
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf6422d05260b780800000000000000
+      internalID: -8669321183425695812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_93
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 137
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59467a76fe36120e0800000000000000
+      internalID: -2296444455094885227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 125
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32cba4ad47267170800000000000000
+      internalID: 8175765387966399037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 121
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ff065b98722e7a0800000000000000
+      internalID: -6349469052231942271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_96
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 137
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699b39898a014ee0800000000000000
+      internalID: -1278729233367328408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_97
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7011406614f91c0800000000000000
+      internalID: -4494801996681771009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_98
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 129
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c8f2a6a30d797c0800000000000000
+      internalID: -4064551189370401724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_99
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 130
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384a4312d1041cf00800000000000000
+      internalID: 1135259074929403011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_100
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67af46b1d7113e090800000000000000
+      internalID: -8006536483506423178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99c6b4f96d9eed90800000000000000
+      internalID: -7066537686894982753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_102
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 121
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09b140ab705b30d0800000000000000
+      internalID: -3442068998294750962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfcf7e0df9087420800000000000000
+      internalID: 2627861365045317582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_104
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 114
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54f63e4deea9c570800000000000000
+      internalID: 8487507306999116895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_105
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 121
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a059225134a4e5bd0800000000000000
+      internalID: -2639590679614679798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_106
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 125
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920f7910d7a9703a0800000000000000
+      internalID: -6699216059001999319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_107
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5f158cb7e89c480800000000000000
+      internalID: -8878408528091286044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_108
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243d97bedf0f31e0800000000000000
+      internalID: -2216035042405305298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_109
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abac8fcba9c3444a0800000000000000
+      internalID: -6610091717779993926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_110
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340db54e109cdb1d0800000000000000
+      internalID: -3333287139220926397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_111
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4f83c080ce76a30800000000000000
+      internalID: 4208591896109970642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_112
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 111
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957f2b6731a4e0a0800000000000000
+      internalID: -6853175473557506660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_113
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ed53bbfd0f1d3b0800000000000000
+      internalID: -5489341627078680981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_114
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccd4008f3bc103e0800000000000000
+      internalID: -2089165278532018999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_115
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7da9375b66e0fd0800000000000000
+      internalID: -2373847024063031312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_116
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 116
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c497b5506cd65b90800000000000000
+      internalID: -7253367843520539454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_117
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 107
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db8106d61e1de6e0800000000000000
+      internalID: -1806754792077161511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_118
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 115
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b30fb0995d5ae00800000000000000
+      internalID: 1055484540995255098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_119
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 116
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981447240ec314090800000000000000
+      internalID: -8052087724876480119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f044d353a68fa8330800000000000000
+      internalID: 3714053977763824655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_121
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 98
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132f3e2ceb270a570800000000000000
+      internalID: 8475900662350344753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_122
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 93
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47084a1c086e85ab0800000000000000
+      internalID: -5019008344025431948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_123
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcc87cd1c2f31f30800000000000000
+      internalID: 4545243363388476656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_124
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 84
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514a074006a8fb6d0800000000000000
+      internalID: -2972505084045253611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_125
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 88
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2165491ea9356c30800000000000000
+      internalID: 4351948034834522413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_126
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 103
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829efa6079ac1fc00800000000000000
+      internalID: 932749347843467560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_127
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3be83cce75cedf50800000000000000
+      internalID: 6908176026815753020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_128
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72add5908eab9030800000000000000
+      internalID: 3502585002504069758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_129
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 92
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dc6bb189a831690800000000000000
+      internalID: -7632604557558231784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_130
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6ba645545e6c470800000000000000
+      internalID: 8414665039720134345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_131
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245a5985eb0515360800000000000000
+      internalID: 7156590061328639298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_132
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 104
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bc7f0e138213b50800000000000000
+      internalID: 6571077526003108694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3810a775438a51a00800000000000000
+      internalID: 726671857649582467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_134
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 82
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c483495c5dff0b0800000000000000
+      internalID: -5692596359401026401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_135
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 103
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c45c447fc63ee0800000000000000
+      internalID: -1281608945536548771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9fe8efcb61ad470800000000000000
+      internalID: 8420067454303009273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_137
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 97
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea40e4d23a11d72b0800000000000000
+      internalID: -5585288570332117842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_138
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5e3a42cacaf44b0800000000000000
+      internalID: -5453950768373307937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_139
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 83
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31706751355eab7f0800000000000000
+      internalID: -595911855668066541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_140
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 87
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3f834f1cd26f7c0800000000000000
+      internalID: -4037989704841759827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_141
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 102
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2332a567aa5ee70800000000000000
+      internalID: 9143902043740779185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 99
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869331920283cd060800000000000000
+      internalID: 6979515233296660840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_143
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4f71d9f1b1284e0800000000000000
+      internalID: -1980991063496067849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_144
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a924a8061083af0800000000000000
+      internalID: -416581451383662032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_145
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 93
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d66d4885f2a3dc0800000000000000
+      internalID: -3658559690052833959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_146
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 81
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bdfb0f9e62c0ae0800000000000000
+      internalID: -1581846582905545905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_147
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fec64c148727f6e0800000000000000
+      internalID: -1803929677375025416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 76
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303afc8058664e4b0800000000000000
+      internalID: -5412088130627984637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_149
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 79
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e53813c2d0caf80800000000000000
+      internalID: -8094079946831208886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_150
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 96
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf07ff916303c960800000000000000
+      internalID: 7620938712271490998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_151
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84f3a41ea34705c0800000000000000
+      internalID: -4249353308451113842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_152
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f683d2097d38e6fc0800000000000000
+      internalID: -3499714898560206737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_153
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952eb4cf6caf89ae0800000000000000
+      internalID: -1542207139831094695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_154
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c394cfa03d7370800000000000000
+      internalID: 8321861217925973442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_155
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 91
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2025696255ee5b840800000000000000
+      internalID: 5239355791002456578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5b03ef1c6ea1090800000000000000
+      internalID: -8062878461985770038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_157
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261bfeb836019e2d0800000000000000
+      internalID: -3249047636435553950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_158
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8cd519e98846220800000000000000
+      internalID: 2478255909585668278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_159
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 73
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeed419418e0b6d50800000000000000
+      internalID: 6731490016475012846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_160
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 66
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208c4501075f8f930800000000000000
+      internalID: 4177358516045268994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_161
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 49
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84db0f1885f6240800000000000000
+      internalID: 4787142244031088887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_162
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490f0f79f235114f0800000000000000
+      internalID: -859814589973335916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 20
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3830a62c241be9400800000000000000
+      internalID: 332898322759680899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_164
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 75
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01285ce4b2a0b7f0800000000000000
+      internalID: -598799852497264371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_165
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 54
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ef06a9161d86180800000000000000
+      internalID: -9121810828106858869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_166
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 63
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e9afbbfb8349cf0800000000000000
+      internalID: -246509683454861768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_167
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 54
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a109ba0a972d3510800000000000000
+      internalID: 1530422990934180257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_168
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566dfcef5bc1964b0800000000000000
+      internalID: -5446790706338212251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_169
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 75
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9054462dd1444a690800000000000000
+      internalID: -7591868176965286647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_170
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 72
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fca226a6e693ad10800000000000000
+      internalID: 2135716565677681904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_171
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 65
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4450871366ac102e0800000000000000
+      internalID: -2161223805895703228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_172
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 80
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b39e17d6a28450b0800000000000000
+      internalID: -5740819971905252432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_173
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 69
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14826ac3e04c140800000000000000
+      internalID: 4738928361549087203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8867bd44b51ddbd40800000000000000
+      internalID: 5601863701446227592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 74
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b7212e78e1fc350800000000000000
+      internalID: 6039079194289404673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_176
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 64
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6aca64b7d87d3f20800000000000000
+      internalID: 3404009761202162282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e09548e0dd39ed00800000000000000
+      internalID: 1002400359526011112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_178
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0f84d0f3fb3a2a0800000000000000
+      internalID: -6727323140834660119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_179
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2400756dfa2ea20800000000000000
+      internalID: 3090225629447078604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_180
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493d45f77aa23ea70800000000000000
+      internalID: 8854968191224697748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_181
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a529eef32b8c800800000000000000
+      internalID: 632951735300807288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_182
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 65
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde70c1440a9aec00800000000000000
+      internalID: 930725616079109855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_183
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 57
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdfee9a808974be0800000000000000
+      internalID: -1493057588471857713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_184
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 49
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07279549818031ff0800000000000000
+      internalID: -66700667819298192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_185
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d88225e8680b0090800000000000000
+      internalID: -8067345060890244905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_186
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 68
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141bacca9a80299f0800000000000000
+      internalID: -463298286824279743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_187
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 35
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fc579c18eac65d0800000000000000
+      internalID: -3067885373692194956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_188
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 28
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a9da88c6ee09820800000000000000
+      internalID: 2923098308080409153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 46
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab892b80e4a61530800000000000000
+      internalID: 3825426217812200353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_190
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 61
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef421616c40b1ab0800000000000000
+      internalID: -5036426509463433237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_191
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f368cbf2ebab880800000000000000
+      internalID: -8594347826647515381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_192
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 60
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790db87e5a0c85910800000000000000
+      internalID: 1826421467685572759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_193
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 56
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4dd205b69bf9f0800000000000000
+      internalID: -433587234929816755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_194
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 28
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2978736e28956b10800000000000000
+      internalID: 1974151336676587822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_195
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 41
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1415423a0d3e510800000000000000
+      internalID: 1577333693617357306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_196
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 41
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06be81ece78dd5e0800000000000000
+      internalID: -1883199617704741361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_197
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa158941e6d9f670800000000000000
+      internalID: 8573119628765895423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_198
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384e3a08e1272ea40800000000000000
+      internalID: 5396000778876085379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_199
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4525d478595b8e90800000000000000
+      internalID: -7022420957502036658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_200
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 19
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ed30c1d93a88e20800000000000000
+      internalID: 3353109817752542789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_201
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 37
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0751b126b7a158390800000000000000
+      internalID: -7816812461002386064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_202
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 45
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95f9806c701401d0800000000000000
+      internalID: -3385562893494127206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_203
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 39
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e0bd1fb84405160800000000000000
+      internalID: 7012179987664670287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_204
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4aae4c64717bc40800000000000000
+      internalID: 5527912660339434694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_205
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 41
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d605c82ea13cead50800000000000000
+      internalID: 6750547411712364653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_206
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 37
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd10b930196a8b160800000000000000
+      internalID: 7041561159154729435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_207
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351389b3b9ae00080800000000000000
+      internalID: -9223114084414115501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_208
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 26
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f444965e008054470800000000000000
+      internalID: 8378111481734579279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_209
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613c44c95545adc80800000000000000
+      internalID: -8297226636806012138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_210
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 24
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2828f097ac0f32cd0800000000000000
+      internalID: -2583957008775413118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_211
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 32
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791319c54de974130800000000000000
+      internalID: 3550981466128200087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_212
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 19
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4faaee36879a0420800000000000000
+      internalID: 2597054737969491791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65c7b1783fdb3a80800000000000000
+      internalID: -8485943639330536085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_214
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83944bdefdc0f8590800000000000000
+      internalID: -7669897484483409608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_215
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 20
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cfba0a3233a00b0800000000000000
+      internalID: -5761736545154630510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_216
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1169d48d8140b990800000000000000
+      internalID: -7372320513930469090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_217
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24842f77dcfe47ee0800000000000000
+      internalID: -1264121929624565694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_218
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bff3f36de9567720800000000000000
+      internalID: 2843559090850103219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_219
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 20
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348271012725dfd0800000000000000
+      internalID: -2317903410500565965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_220
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678b6a7531dc1f710800000000000000
+      internalID: 1725385615218227318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbdd0abcc72896f0800000000000000
+      internalID: -677747983670977599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_222
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed8c3894ec0802e0800000000000000
+      internalID: -2159461845377970714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_223
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 6
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd92d485196d51e10800000000000000
+      internalID: 2167874715388815837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_224
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdfeb1a04af08bb0800000000000000
+      internalID: -4935670036099564083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_225
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1df6243d741c600800000000000000
+      internalID: 486749207411020227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_226
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 8
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ff2abe6b6f8afb0800000000000000
+      internalID: -4636184550880116930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_227
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28e52c4c55202fa0800000000000000
+      internalID: -5827616839472650196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_228
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cbb3403f71658e0800000000000000
+      internalID: -1705149076397638622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_229
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c687ad1de7eab990800000000000000
+      internalID: -7369322834647611705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_230
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3beec8a0c4adf60800000000000000
+      internalID: 8059838091330761663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_231
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a351e8f34f45644a0800000000000000
+      internalID: -6609501995104594630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_232
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3814dcbdc569770800000000000000
+      internalID: 8617177036131238825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_233
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f929a0591798d8df0800000000000000
+      internalID: -176333689472773473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_234
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 5
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6fc5d1017f7d720800000000000000
+      internalID: 2871034936056149673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_235
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120bfcda028a51c40800000000000000
+      internalID: 5482472979701936161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_236
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361cb693a1352ddd0800000000000000
+      internalID: -2462814674120621725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_237
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 18
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc67d527269e7640800000000000000
+      internalID: 5079662524603264251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_238
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9799f0e296f410420800000000000000
+      internalID: 2594442173505051001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_239
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9a79219574c9940800000000000000
+      internalID: 5304192909025192437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_240
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 15
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78e6ccefd0aa78d0800000000000000
+      internalID: -2847786930747807617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_241
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8573b62c7884a4b60800000000000000
+      internalID: 7731071458254468952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_242
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dd02ff26a415ec0800000000000000
+      internalID: -3579998439735239351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_243
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843d742ad97a5b2b0800000000000000
+      internalID: -5569361068699430072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rain_drops-02_244
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bcf073ff6297570800000000000000
+      internalID: 8464839852201855897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rain_drops-02_0: 9026556615443062635
+      rain_drops-02_1: 4908181701558937493
+      rain_drops-02_10: -2919224487943424148
+      rain_drops-02_100: -8006536483506423178
+      rain_drops-02_101: -7066537686894982753
+      rain_drops-02_102: -3442068998294750962
+      rain_drops-02_103: 2627861365045317582
+      rain_drops-02_104: 8487507306999116895
+      rain_drops-02_105: -2639590679614679798
+      rain_drops-02_106: -6699216059001999319
+      rain_drops-02_107: -8878408528091286044
+      rain_drops-02_108: -2216035042405305298
+      rain_drops-02_109: -6610091717779993926
+      rain_drops-02_11: 5594703479077771614
+      rain_drops-02_110: -3333287139220926397
+      rain_drops-02_111: 4208591896109970642
+      rain_drops-02_112: -6853175473557506660
+      rain_drops-02_113: -5489341627078680981
+      rain_drops-02_114: -2089165278532018999
+      rain_drops-02_115: -2373847024063031312
+      rain_drops-02_116: -7253367843520539454
+      rain_drops-02_117: -1806754792077161511
+      rain_drops-02_118: 1055484540995255098
+      rain_drops-02_119: -8052087724876480119
+      rain_drops-02_12: -4629052206541001439
+      rain_drops-02_120: 3714053977763824655
+      rain_drops-02_121: 8475900662350344753
+      rain_drops-02_122: -5019008344025431948
+      rain_drops-02_123: 4545243363388476656
+      rain_drops-02_124: -2972505084045253611
+      rain_drops-02_125: 4351948034834522413
+      rain_drops-02_126: 932749347843467560
+      rain_drops-02_127: 6908176026815753020
+      rain_drops-02_128: 3502585002504069758
+      rain_drops-02_129: -7632604557558231784
+      rain_drops-02_13: 6124926923701334261
+      rain_drops-02_130: 8414665039720134345
+      rain_drops-02_131: 7156590061328639298
+      rain_drops-02_132: 6571077526003108694
+      rain_drops-02_133: 726671857649582467
+      rain_drops-02_134: -5692596359401026401
+      rain_drops-02_135: -1281608945536548771
+      rain_drops-02_136: 8420067454303009273
+      rain_drops-02_137: -5585288570332117842
+      rain_drops-02_138: -5453950768373307937
+      rain_drops-02_139: -595911855668066541
+      rain_drops-02_14: 3391321257902075803
+      rain_drops-02_140: -4037989704841759827
+      rain_drops-02_141: 9143902043740779185
+      rain_drops-02_142: 6979515233296660840
+      rain_drops-02_143: -1980991063496067849
+      rain_drops-02_144: -416581451383662032
+      rain_drops-02_145: -3658559690052833959
+      rain_drops-02_146: -1581846582905545905
+      rain_drops-02_147: -1803929677375025416
+      rain_drops-02_148: -5412088130627984637
+      rain_drops-02_149: -8094079946831208886
+      rain_drops-02_15: 7851919127578330329
+      rain_drops-02_150: 7620938712271490998
+      rain_drops-02_151: -4249353308451113842
+      rain_drops-02_152: -3499714898560206737
+      rain_drops-02_153: -1542207139831094695
+      rain_drops-02_154: 8321861217925973442
+      rain_drops-02_155: 5239355791002456578
+      rain_drops-02_156: -8062878461985770038
+      rain_drops-02_157: -3249047636435553950
+      rain_drops-02_158: 2478255909585668278
+      rain_drops-02_159: 6731490016475012846
+      rain_drops-02_16: 5652186660563308768
+      rain_drops-02_160: 4177358516045268994
+      rain_drops-02_161: 4787142244031088887
+      rain_drops-02_162: -859814589973335916
+      rain_drops-02_163: 332898322759680899
+      rain_drops-02_164: -598799852497264371
+      rain_drops-02_165: -9121810828106858869
+      rain_drops-02_166: -246509683454861768
+      rain_drops-02_167: 1530422990934180257
+      rain_drops-02_168: -5446790706338212251
+      rain_drops-02_169: -7591868176965286647
+      rain_drops-02_17: 3723186983875173461
+      rain_drops-02_170: 2135716565677681904
+      rain_drops-02_171: -2161223805895703228
+      rain_drops-02_172: -5740819971905252432
+      rain_drops-02_173: 4738928361549087203
+      rain_drops-02_174: 5601863701446227592
+      rain_drops-02_175: 6039079194289404673
+      rain_drops-02_176: 3404009761202162282
+      rain_drops-02_177: 1002400359526011112
+      rain_drops-02_178: -6727323140834660119
+      rain_drops-02_179: 3090225629447078604
+      rain_drops-02_18: -287189641601854481
+      rain_drops-02_180: 8854968191224697748
+      rain_drops-02_181: 632951735300807288
+      rain_drops-02_182: 930725616079109855
+      rain_drops-02_183: -1493057588471857713
+      rain_drops-02_184: -66700667819298192
+      rain_drops-02_185: -8067345060890244905
+      rain_drops-02_186: -463298286824279743
+      rain_drops-02_187: -3067885373692194956
+      rain_drops-02_188: 2923098308080409153
+      rain_drops-02_189: 3825426217812200353
+      rain_drops-02_19: 5340919975335330921
+      rain_drops-02_190: -5036426509463433237
+      rain_drops-02_191: -8594347826647515381
+      rain_drops-02_192: 1826421467685572759
+      rain_drops-02_193: -433587234929816755
+      rain_drops-02_194: 1974151336676587822
+      rain_drops-02_195: 1577333693617357306
+      rain_drops-02_196: -1883199617704741361
+      rain_drops-02_197: 8573119628765895423
+      rain_drops-02_198: 5396000778876085379
+      rain_drops-02_199: -7022420957502036658
+      rain_drops-02_2: -5036244934991543106
+      rain_drops-02_20: -8879773377724158031
+      rain_drops-02_200: 3353109817752542789
+      rain_drops-02_201: -7816812461002386064
+      rain_drops-02_202: -3385562893494127206
+      rain_drops-02_203: 7012179987664670287
+      rain_drops-02_204: 5527912660339434694
+      rain_drops-02_205: 6750547411712364653
+      rain_drops-02_206: 7041561159154729435
+      rain_drops-02_207: -9223114084414115501
+      rain_drops-02_208: 8378111481734579279
+      rain_drops-02_209: -8297226636806012138
+      rain_drops-02_21: -7739883638040768576
+      rain_drops-02_210: -2583957008775413118
+      rain_drops-02_211: 3550981466128200087
+      rain_drops-02_212: 2597054737969491791
+      rain_drops-02_213: -8485943639330536085
+      rain_drops-02_214: -7669897484483409608
+      rain_drops-02_215: -5761736545154630510
+      rain_drops-02_216: -7372320513930469090
+      rain_drops-02_217: -1264121929624565694
+      rain_drops-02_218: 2843559090850103219
+      rain_drops-02_219: -2317903410500565965
+      rain_drops-02_22: -5331547876527831731
+      rain_drops-02_220: 1725385615218227318
+      rain_drops-02_221: -677747983670977599
+      rain_drops-02_222: -2159461845377970714
+      rain_drops-02_223: 2167874715388815837
+      rain_drops-02_224: -4935670036099564083
+      rain_drops-02_225: 486749207411020227
+      rain_drops-02_226: -4636184550880116930
+      rain_drops-02_227: -5827616839472650196
+      rain_drops-02_228: -1705149076397638622
+      rain_drops-02_229: -7369322834647611705
+      rain_drops-02_23: 7835018558045397563
+      rain_drops-02_230: 8059838091330761663
+      rain_drops-02_231: -6609501995104594630
+      rain_drops-02_232: 8617177036131238825
+      rain_drops-02_233: -176333689472773473
+      rain_drops-02_234: 2871034936056149673
+      rain_drops-02_235: 5482472979701936161
+      rain_drops-02_236: -2462814674120621725
+      rain_drops-02_237: 5079662524603264251
+      rain_drops-02_238: 2594442173505051001
+      rain_drops-02_239: 5304192909025192437
+      rain_drops-02_24: -7312093900744667485
+      rain_drops-02_240: -2847786930747807617
+      rain_drops-02_241: 7731071458254468952
+      rain_drops-02_242: -3579998439735239351
+      rain_drops-02_243: -5569361068699430072
+      rain_drops-02_244: 8464839852201855897
+      rain_drops-02_25: 1731048204233647463
+      rain_drops-02_26: -5568670569259314733
+      rain_drops-02_27: 3686076264198738237
+      rain_drops-02_28: 639217012256263065
+      rain_drops-02_29: -6247954939906983088
+      rain_drops-02_3: -3864485608986714179
+      rain_drops-02_30: 8685680420611716612
+      rain_drops-02_31: 2790688008886717659
+      rain_drops-02_32: -8926183375038064281
+      rain_drops-02_33: -5892398156759348313
+      rain_drops-02_34: -8909670996792724432
+      rain_drops-02_35: 431879132098592790
+      rain_drops-02_36: 6074734060652187031
+      rain_drops-02_37: -3771814043220782604
+      rain_drops-02_38: 1505869836978963310
+      rain_drops-02_39: -2634096966268002117
+      rain_drops-02_4: 2088145407577539403
+      rain_drops-02_40: 1553116490499107721
+      rain_drops-02_41: 8692371696098563110
+      rain_drops-02_42: -3716785465749661764
+      rain_drops-02_43: -4310059473843975058
+      rain_drops-02_44: 704783776412642145
+      rain_drops-02_45: 8409087686773544775
+      rain_drops-02_46: 66842679362764182
+      rain_drops-02_47: 8585515391551331395
+      rain_drops-02_48: -2863214616864309882
+      rain_drops-02_49: 7197814541909927444
+      rain_drops-02_5: -4980542827443853520
+      rain_drops-02_50: 1057150465471752906
+      rain_drops-02_51: 3742374209248513821
+      rain_drops-02_52: 2531051997363907656
+      rain_drops-02_53: -7481535387901944203
+      rain_drops-02_54: 3720468839682756051
+      rain_drops-02_55: -3242583651346500573
+      rain_drops-02_56: 257776150461533048
+      rain_drops-02_57: -1798020091858763197
+      rain_drops-02_58: -1082183341579578964
+      rain_drops-02_59: -8798097532863535607
+      rain_drops-02_6: 3945037498102661816
+      rain_drops-02_60: -5020724048012983495
+      rain_drops-02_61: 5252533519111229805
+      rain_drops-02_62: -5338149561877509221
+      rain_drops-02_63: 1415932420005805454
+      rain_drops-02_64: -2749146901864681765
+      rain_drops-02_65: -8153329960485183124
+      rain_drops-02_66: -5650399612311910163
+      rain_drops-02_67: 8271589284623619145
+      rain_drops-02_68: -7242710588396253255
+      rain_drops-02_69: 5274643628158155499
+      rain_drops-02_7: 8969889191347107865
+      rain_drops-02_70: 984296238817015121
+      rain_drops-02_71: -913528988759456871
+      rain_drops-02_72: -7842737135795999698
+      rain_drops-02_73: -1253830734556885409
+      rain_drops-02_74: 6172156007140995333
+      rain_drops-02_75: 2902981596419168471
+      rain_drops-02_76: 1727503473089918430
+      rain_drops-02_77: 7782487293309475133
+      rain_drops-02_78: 5364598723749069340
+      rain_drops-02_79: 2044004539119478373
+      rain_drops-02_8: 8398952129977047208
+      rain_drops-02_80: 4830213601812436
+      rain_drops-02_81: 2624445110981061190
+      rain_drops-02_82: -2714832013652925754
+      rain_drops-02_83: 3797821010709093518
+      rain_drops-02_84: -1340490518946279287
+      rain_drops-02_85: -729614677934582163
+      rain_drops-02_86: 3719735223695463119
+      rain_drops-02_87: 2232805215579328151
+      rain_drops-02_88: -1389060860389800696
+      rain_drops-02_89: 5929073533576763155
+      rain_drops-02_9: -1977893326574912525
+      rain_drops-02_90: 1117502361677752950
+      rain_drops-02_91: 7381799764392176498
+      rain_drops-02_92: -8669321183425695812
+      rain_drops-02_93: -2296444455094885227
+      rain_drops-02_94: 8175765387966399037
+      rain_drops-02_95: -6349469052231942271
+      rain_drops-02_96: -1278729233367328408
+      rain_drops-02_97: -4494801996681771009
+      rain_drops-02_98: -4064551189370401724
+      rain_drops-02_99: 1135259074929403011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
