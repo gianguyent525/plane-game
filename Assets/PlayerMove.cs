@@ -8,14 +8,17 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rb;
     Vector2 move;
 
-    public float speed = 5f;
+    [Header("Movement")]
+    public float baseSpeed = 5f;
+    private float speedMultiplier = 1f;
+    public float Speed => baseSpeed * speedMultiplier;
 
     public VisualEffect vfxRenderer;
 
     [Header("Screen Bounds")]
     public float paddingLeft = 0.2f;
     public float paddingRight = 0.2f;
-    public float paddingTop = 0f;      
+    public float paddingTop = 0f;
     public float paddingBottom = 0f;
 
     private Camera mainCamera;
@@ -26,15 +29,22 @@ public class PlayerMove : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (rb == null)
+        {
+            Debug.LogError("Rigidbody2D missing on Player!");
+        }
+
         mainCamera = Camera.main;
+
         CalculatePlayerSize();
         CalculateScreenBounds();
     }
 
     void CalculatePlayerSize()
     {
-        // Tính kích thước player 
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
         if (spriteRenderer != null && spriteRenderer.sprite != null)
         {
             playerHalfSize = spriteRenderer.bounds.extents;
@@ -42,14 +52,11 @@ public class PlayerMove : MonoBehaviour
         else
         {
             Collider2D col = GetComponent<Collider2D>();
+
             if (col != null)
-            {
                 playerHalfSize = col.bounds.extents;
-            }
             else
-            {
-                playerHalfSize = new Vector2(0.5f, 0.5f); // Default size
-            }
+                playerHalfSize = new Vector2(0.5f, 0.5f);
         }
     }
 
@@ -60,7 +67,6 @@ public class PlayerMove : MonoBehaviour
         float camHeight = mainCamera.orthographicSize;
         float camWidth = camHeight * mainCamera.aspect;
 
-        // Tính padding riêng cho từng phía
         float leftBound = -camWidth + playerHalfSize.x + paddingLeft;
         float rightBound = camWidth - playerHalfSize.x - paddingRight;
         float bottomBound = -camHeight + playerHalfSize.y + paddingBottom;
@@ -88,15 +94,21 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = move * speed;
+        rb.linearVelocity = move * Speed;
     }
 
     void LateUpdate()
     {
-        // Giới hạn vị trí player trong màn hình
         Vector3 pos = transform.position;
+
         pos.x = Mathf.Clamp(pos.x, minBounds.x, maxBounds.x);
         pos.y = Mathf.Clamp(pos.y, minBounds.y, maxBounds.y);
+
         transform.position = pos;
+    }
+
+    public void SetSpeedMultiplier(float multiplier)
+    {
+        speedMultiplier = multiplier;
     }
 }
