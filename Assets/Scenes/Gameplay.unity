@@ -741,6 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c87c469ddee174495e833eafe5b778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameplayWeatherModifier
+  player: {fileID: 1557804463}
 --- !u!4 &868200959
 Transform:
   m_ObjectHideFlags: 0
@@ -923,7 +924,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1557804463
 MonoBehaviour:
@@ -937,12 +938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbbbcef6d6cc4b64d84bf9d927cc0279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  speed: 10
+  baseSpeed: 5
   vfxRenderer: {fileID: 4269361760707146308, guid: ed21c5592be361640ae5fd6b45090d15, type: 3}
-  paddingLeft: 0.2
-  paddingRight: 0.2
-  paddingTop: 0
-  paddingBottom: 0
 --- !u!4 &1557804464
 Transform:
   m_ObjectHideFlags: 0
