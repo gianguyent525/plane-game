@@ -21,6 +21,15 @@ public class BossBullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Boss bullet hit player!");
+
+            Player_health player = other.GetComponent<Player_health>();
+
+            if (player != null)
+            {
+                player.TakeDamage(1);
+            }
+
             Destroy(gameObject);
         }
     }
