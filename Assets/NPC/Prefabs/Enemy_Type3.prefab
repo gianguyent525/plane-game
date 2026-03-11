@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6389252545850384085}
   - component: {fileID: 2530179099127720356}
-  - component: {fileID: 3778627675824687924}
+  - component: {fileID: 8988812502998132653}
   m_Layer: 0
   m_Name: Enemy_Type3
   m_TagString: Untagged
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3778627675824687924
+--- !u!114 &8988812502998132653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,11 +101,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6993709179422273085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffd6f08f66f750d4ba7adce461aa7c48, type: 3}
+  m_Script: {fileID: 11500000, guid: c5f1723091d629c4eb2b48f01c4a8d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBomber
   speed: 5
-  bombPrefab: {fileID: 2680555929786061058, guid: 84ca957402ebd134e8d0e3ee2551ce57, type: 3}
+  bombPrefab: {fileID: 2680555929786061058, guid: fcdc2f3c0d70bb94f9e66ebf95a37ab2, type: 3}
   minSpawnTime: 0.5
   maxSpawnTime: 1.5
   padding: 1

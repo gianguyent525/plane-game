@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6944163922689834770}
   - component: {fileID: 9112471272868737434}
-  - component: {fileID: 2919250105279091373}
+  - component: {fileID: 1125254905499881966}
   m_Layer: 0
   m_Name: TimeBomb
   m_TagString: Untagged
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.9169811, g: 0.46077543, b: 0.39274472, a: 0.5019608}
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2919250105279091373
+--- !u!114 &1125254905499881966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,14 +101,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2680555929786061058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec8a6ae914e547a40b1f690515728991, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a1e90cd0b7ee404597ec791097633f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimeBomb
   delayTime: 2
-  explosionRadius: 1.5
+  explosionRadius: 2
   damage: 1
-  explosionVFX: {fileID: 8493923627779736448, guid: e1f8dd43493ece744ab281d4b7c31ed7, type: 3}
+  explosionVFX: {fileID: 8493923627779736448, guid: ba83b301ef38e684fbace5cbb3e5375f, type: 3}
   warningSprite: {fileID: 9112471272868737434}
   vfxDuration: 0.5
-  startScale: 2
+  startScale: 3
   endScale: 1

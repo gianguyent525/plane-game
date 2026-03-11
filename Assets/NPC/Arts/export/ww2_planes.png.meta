@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: eb3410d056f8ba54cb2c165354cea38b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 134584728563487444
+    second: ww2_planes_0
+  - first:
+      213: -8473428115014461382
+    second: ww2_planes_1
+  - first:
+      213: -2137366557833007937
+    second: ww2_planes_2
+  - first:
+      213: 8998115727613647034
+    second: ww2_planes_3
+  - first:
+      213: -4629489943852985644
+    second: ww2_planes_4
+  - first:
+      213: -6343978427242140506
+    second: ww2_planes_5
+  - first:
+      213: 2715724551164746362
+    second: ww2_planes_6
+  - first:
+      213: 4687704444157295571
+    second: ww2_planes_7
+  - first:
+      213: -1171427021102712984
+    second: ww2_planes_8
+  - first:
+      213: -1972437438240559232
+    second: ww2_planes_9
+  - first:
+      213: 4359386773953873024
+    second: ww2_planes_10
+  - first:
+      213: 1109384701703912234
+    second: ww2_planes_11
+  - first:
+      213: -6674064734925439794
+    second: ww2_planes_12
+  - first:
+      213: 3684193451650193616
+    second: ww2_planes_13
+  - first:
+      213: 4395054842664286308
+    second: ww2_planes_14
+  - first:
+      213: -4521025457713913462
+    second: ww2_planes_15
+  - first:
+      213: -8483722814658747897
+    second: ww2_planes_16
+  - first:
+      213: 681838565462743822
+    second: ww2_planes_17
+  - first:
+      213: 5324977125587042772
+    second: ww2_planes_18
+  - first:
+      213: 4863860108633720865
+    second: ww2_planes_19
+  - first:
+      213: 7876273057366279898
+    second: ww2_planes_20
+  - first:
+      213: -4736441551907555635
+    second: ww2_planes_21
+  - first:
+      213: -2177698152467165191
+    second: ww2_planes_22
+  - first:
+      213: 7475813089047379303
+    second: ww2_planes_23
+  - first:
+      213: -4408099163899183352
+    second: ww2_planes_24
+  - first:
+      213: -1704426947757001329
+    second: ww2_planes_25
+  - first:
+      213: -1754649628974997404
+    second: ww2_planes_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ww2_planes_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2183af8142ed100800000000000000
+      internalID: 134584728563487444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 226
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3851c60606586a80800000000000000
+      internalID: -8473428115014461382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 227
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc609d907c8652e0800000000000000
+      internalID: -2137366557833007937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 219
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85448849abfdc70800000000000000
+      internalID: 8998115727613647034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 219
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d256659c6fb0cfb0800000000000000
+      internalID: -4629489943852985644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 208
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acad757b39a5f7a0800000000000000
+      internalID: -6343978427242140506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 228
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a5bfb371130b520800000000000000
+      internalID: 2715724551164746362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 208
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbf30efa521e0140800000000000000
+      internalID: 4687704444157295571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 225
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867f0eea4514ebfe0800000000000000
+      internalID: -1171427021102712984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 129
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6dffa99e70a4e0800000000000000
+      internalID: -1972437438240559232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 121
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0848e048c27af7c30800000000000000
+      internalID: 4359386773953873024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 124
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b70582283556f00800000000000000
+      internalID: 1109384701703912234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 127
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccbecafb75f063a0800000000000000
+      internalID: -6674064734925439794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 122
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d81e61bc62e02330800000000000000
+      internalID: 3684193451650193616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_14
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 126
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687d59e71f5efc30800000000000000
+      internalID: 4395054842664286308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_15
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 125
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81e674bc471241c0800000000000000
+      internalID: -4521025457713913462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_16
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 128
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702636b7c03c34a80800000000000000
+      internalID: -8483722814658747897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 122
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b91901090667900800000000000000
+      internalID: 681838565462743822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 26
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d142b79b7e16e940800000000000000
+      internalID: 5324977125587042772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1284e4cbff6ef7340800000000000000
+      internalID: 4863860108633720865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 24
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad60c4a8d942e4d60800000000000000
+      internalID: 7876273057366279898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 27
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc67627d087c44eb0800000000000000
+      internalID: -4736441551907555635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 13
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff8b2a711347c1e0800000000000000
+      internalID: -2177698152467165191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_23
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 29
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d72eb556c6fb760800000000000000
+      internalID: 7475813089047379303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_24
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 22
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fb7116a2943d2c0800000000000000
+      internalID: -4408099163899183352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_25
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 29
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f853751b8b8a858e0800000000000000
+      internalID: -1704426947757001329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ww2_planes_26
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 16
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460acaf757b36a7e0800000000000000
+      internalID: -1754649628974997404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ww2_planes_0: 134584728563487444
+      ww2_planes_1: -8473428115014461382
+      ww2_planes_10: 4359386773953873024
+      ww2_planes_11: 1109384701703912234
+      ww2_planes_12: -6674064734925439794
+      ww2_planes_13: 3684193451650193616
+      ww2_planes_14: 4395054842664286308
+      ww2_planes_15: -4521025457713913462
+      ww2_planes_16: -8483722814658747897
+      ww2_planes_17: 681838565462743822
+      ww2_planes_18: 5324977125587042772
+      ww2_planes_19: 4863860108633720865
+      ww2_planes_2: -2137366557833007937
+      ww2_planes_20: 7876273057366279898
+      ww2_planes_21: -4736441551907555635
+      ww2_planes_22: -2177698152467165191
+      ww2_planes_23: 7475813089047379303
+      ww2_planes_24: -4408099163899183352
+      ww2_planes_25: -1704426947757001329
+      ww2_planes_26: -1754649628974997404
+      ww2_planes_3: 8998115727613647034
+      ww2_planes_4: -4629489943852985644
+      ww2_planes_5: -6343978427242140506
+      ww2_planes_6: 2715724551164746362
+      ww2_planes_7: 4687704444157295571
+      ww2_planes_8: -1171427021102712984
+      ww2_planes_9: -1972437438240559232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

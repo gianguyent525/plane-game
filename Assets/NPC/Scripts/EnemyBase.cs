@@ -1,0 +1,86 @@
+﻿using UnityEngine;
+
+public class EnemyBase : MonoBehaviour
+{
+    [Header("Chỉ số chung")]
+    public float hp = 3;
+    public float moveSpeed = 3f;
+    public int scoreValue = 100;
+
+    [Header("Vũ khí")]
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireRate = 2f;
+    protected float fireTimer;
+
+    protected virtual void Start()
+    {
+
+        // --- ÁP DỤNG ĐỘ KHÓ ---
+        moveSpeed *= DifficultyManager.GetSpeedMultiplier();
+        fireRate *= DifficultyManager.GetFireRateMultiplier();
+        // Bạn cũng có thể tăng máu ở đây: hp *= DifficultyManager.GetSpeedMultiplier();
+
+        fireTimer = fireRate;
+    }
+
+    protected virtual void Update()
+    {
+        Move(); // Gọi hàm di chuyển riêng
+
+        // Logic bắn súng
+        fireTimer -= Time.deltaTime;
+        if (fireTimer <= 0)
+        {
+            Shoot();
+            fireTimer = fireRate;
+        }
+
+        CheckBounds(); // Gọi hàm dọn rác
+    }
+
+    // TÁCH RIÊNG: Để các con quái con dễ dàng thay đổi kiểu bay
+    protected virtual void Move()
+    {
+        // Mặc định là bay thẳng xuống
+        transform.Translate(Vector3.down * moveSpeed * Time.deltaTime, Space.World);
+    }
+
+    // TÁCH RIÊNG: Dọn rác khi bay khỏi màn hình
+    protected virtual void CheckBounds()
+    {
+        if (transform.position.y < -12f) Destroy(gameObject);
+    }
+
+    protected virtual void Shoot()
+    {
+        if (bulletPrefab && firePoint)
+            Instantiate(bulletPrefab, firePoint.position, bulletPrefab.transform.rotation);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        hp -= damage;
+        if (hp <= 0) Die();
+    }
+
+    protected virtual void Die()
+    {
+        // Tạo hiệu ứng nổ, cộng điểm ở đây
+        Destroy(gameObject);
+    }
+
+    // XỬ LÝ VA CHẠM CHUNG
+    protected virtual void OnTriggerEnter2D(Collider2D other)
+    {
+        // Đã XÓA phần check "PlayerBullet" vì script bullet.cs của Player đã tự lo việc đó rồi.
+
+        // Chỉ giữ lại logic: Đâm thẳng vào Player thì nổ
+        if (other.CompareTag("Player"))
+        {
+            Player_health player = other.GetComponent<Player_health>();
+            if (player != null) player.TakeDamage(1);
+            Die();
+        }
+    }
+}
