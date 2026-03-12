@@ -2,33 +2,78 @@ using UnityEngine;
 
 public class mainweapon : MonoBehaviour
 {
-
-    public float timeToActtack = 0.5f; 
+    public float timeToActtack = 0.5f;
     float timer;
-    [SerializeField] GameObject bullet;
+    public int maxBullet = 5;
 
+    public float bulletDecayTime = 20f;
+    float decayTimer;
+
+    [SerializeField] GameObject bullet;
     [SerializeField] Transform[] firePoints;
 
-    private void Update()
+    public int bulletCount = 1;
+
+    void Update()
     {
+        // Attack timer
         timer -= Time.deltaTime;
-        if (timer < 0)
+
+        if (timer <= 0)
         {
             Attack();
         }
+
+        // Bullet decay timer
+        if (bulletCount > 1)
+        {
+            decayTimer -= Time.deltaTime;
+
+            if (decayTimer <= 0)
+            {
+                bulletCount--;
+                Debug.Log("Bullet decreased to: " + bulletCount);
+
+                decayTimer = bulletDecayTime;
+            }
+        }
     }
 
-    private void Attack()
+    void Attack()
     {
+        float spreadAngle = GetSpreadAngle();
 
-        foreach (Transform point in firePoints)
+        float startAngle = -spreadAngle / 2f;
+        float angleStep = bulletCount > 1 ? spreadAngle / (bulletCount - 1) : 0;
+
+        for (int i = 0; i < bulletCount; i++)
         {
-            if (point != null) 
-            {
-                Instantiate(bullet, point.position, point.rotation);
-            }
+            Transform firePoint = firePoints[i % firePoints.Length];
+
+            float angle = startAngle + angleStep * i;
+
+            Quaternion rotation = firePoint.rotation * Quaternion.Euler(0, 0, angle);
+
+            Instantiate(bullet, firePoint.position, rotation);
         }
 
         timer = timeToActtack;
+    }
+
+    float GetSpreadAngle()
+    {
+        switch (bulletCount)
+        {
+            case 1: return 0f;
+            case 2: return 30f;
+            case 3: return 50f;
+            case 4: return 70f;
+            case 5: return 90f;
+            default: return 100f;
+        }
+    }
+    public void ResetDecayTimer()
+    {
+        decayTimer = bulletDecayTime;
     }
 }

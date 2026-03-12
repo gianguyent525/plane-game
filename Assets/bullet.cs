@@ -15,13 +15,12 @@ public class bullet : MonoBehaviour
     void Update()
     {
         // Move the bullet forward every frame
-        transform.Translate(Vector3.up * speed * Time.deltaTime, Space.World);
-        
+        transform.position += transform.up * speed * Time.deltaTime;
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hit: " + other.name);
 
         if (other.CompareTag("Enemy"))
         {
