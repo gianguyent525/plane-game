@@ -7,12 +7,12 @@ public class LightningFlash : MonoBehaviour
     [Tooltip("Tần suất lightning flash (giây)")]
     public float minFlashInterval = 2f;
     public float maxFlashInterval = 5f;
-    
+
     [Tooltip("Thời gian flash sáng (giây)")]
     public float flashDuration = 0.1f;
-    
+
     [Tooltip("Độ sáng khi flash")]
-    public float flashIntensity = 3f;
+    public float flashIntensity = 12f;
 
     Light2D light2D;
     float nextFlashTime;
@@ -23,17 +23,17 @@ public class LightningFlash : MonoBehaviour
     void Start()
     {
         light2D = GetComponent<Light2D>();
-        
+
         if (light2D == null)
         {
             Debug.LogError("Lightning_Flash needs Light2D component!");
             enabled = false;
             return;
         }
-        
+
         light2D.intensity = 0f;
-        
-        // Auto-find OverlayFlash if not assigned
+
+
         if (overlayFlash == null)
         {
             overlayFlash = FindFirstObjectByType<OverlayFlash>();
@@ -42,7 +42,7 @@ public class LightningFlash : MonoBehaviour
                 Debug.LogWarning("OverlayFlash not found in scene!");
             }
         }
-        
+
         ScheduleNextFlash();
     }
 
@@ -63,11 +63,11 @@ public class LightningFlash : MonoBehaviour
         yield return new WaitForSeconds(flashDuration);
 
         light2D.intensity = 0f;
-        
+
         if (Random.value > 0.5f)
         {
             yield return new WaitForSeconds(0.05f);
-            light2D.intensity = flashIntensity * 0.7f;
+            light2D.intensity = flashIntensity * 0.8f;
             overlayFlash?.Flash();
             yield return new WaitForSeconds(flashDuration * 0.5f);
             light2D.intensity = 0f;
