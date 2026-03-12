@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class PowerUp : MonoBehaviour
+public class HealthPowerUp : MonoBehaviour
 {
-    public float fallSpeed = 2f;
+    public float fallSpeed = 2f; 
+    public int healAmount = 1;   
 
     private Camera _cam;
 
@@ -35,25 +36,17 @@ public class PowerUp : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-    if (other.CompareTag("Player"))
-    {
-        mainweapon[] weapons = other.GetComponentsInChildren<mainweapon>();
-
-        if (weapons.Length > 0)
+        if (other.CompareTag("Player"))
         {
-            foreach (mainweapon weapon in weapons)
-            {
-                weapon.bulletCount = Mathf.Min(weapon.bulletCount + 1, weapon.maxBullet);
-                weapon.ResetDecayTimer();
-                Debug.Log("bulletCount = " + weapon.bulletCount);
-            }
-        }
-        else
-        {
-            Debug.LogWarning("Không tìm thấy mainweapon trên Player!");
-        }
+            // PlayerController playerScript = other.GetComponent<PlayerController>();
 
-        Destroy(gameObject);
-    }
+            // if (playerScript != null)
+            // {
+            //     //playerScript.Heal(healAmount);
+            //     Debug.Log("Đã nhặt được vật phẩm hồi máu!");
+            // }
+
+            Destroy(gameObject);
+        }
     }
 }
