@@ -34,11 +34,26 @@ public class PowerUp : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
+        mainweapon[] weapons = other.GetComponentsInChildren<mainweapon>();
+
+        if (weapons.Length > 0)
         {
-            Debug.Log("Đã nhặt được vật phẩm!");
-            Destroy(gameObject);
+            foreach (mainweapon weapon in weapons)
+            {
+                weapon.bulletCount = Mathf.Min(weapon.bulletCount + 1, weapon.maxBullet);
+                weapon.ResetDecayTimer();
+                Debug.Log("bulletCount = " + weapon.bulletCount);
+            }
         }
+        else
+        {
+            Debug.LogWarning("Không tìm thấy mainweapon trên Player!");
+        }
+
+        Destroy(gameObject);
     }
+}
 }

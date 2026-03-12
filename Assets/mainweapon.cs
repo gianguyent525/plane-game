@@ -4,6 +4,10 @@ public class mainweapon : MonoBehaviour
 {
     public float timeToActtack = 0.5f;
     float timer;
+    public int maxBullet = 5;
+
+    public float bulletDecayTime = 20f;
+    float decayTimer;
 
     [SerializeField] GameObject bullet;
     [SerializeField] Transform[] firePoints;
@@ -12,11 +16,26 @@ public class mainweapon : MonoBehaviour
 
     void Update()
     {
+        // Attack timer
         timer -= Time.deltaTime;
 
         if (timer <= 0)
         {
             Attack();
+        }
+
+        // Bullet decay timer
+        if (bulletCount > 1)
+        {
+            decayTimer -= Time.deltaTime;
+
+            if (decayTimer <= 0)
+            {
+                bulletCount--;
+                Debug.Log("Bullet decreased to: " + bulletCount);
+
+                decayTimer = bulletDecayTime;
+            }
         }
     }
 
@@ -52,5 +71,9 @@ public class mainweapon : MonoBehaviour
             case 5: return 90f;
             default: return 100f;
         }
+    }
+    public void ResetDecayTimer()
+    {
+        decayTimer = bulletDecayTime;
     }
 }
