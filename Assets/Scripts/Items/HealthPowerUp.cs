@@ -38,13 +38,13 @@ public class HealthPowerUp : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // PlayerController playerScript = other.GetComponent<PlayerController>();
+            Player_health playerHealth = other.GetComponent<Player_health>();
 
-            // if (playerScript != null)
-            // {
-            //     //playerScript.Heal(healAmount);
-            //     Debug.Log("Đã nhặt được vật phẩm hồi máu!");
-            // }
+            if (playerHealth != null)
+            {
+                playerHealth.Heal(healAmount);
+                Debug.Log("Player đã hồi máu!");
+            }
 
             Destroy(gameObject);
         }

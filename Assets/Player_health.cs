@@ -28,6 +28,15 @@ public class Player_health : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+
+        UpdateHearts();
+    }
 
 
 

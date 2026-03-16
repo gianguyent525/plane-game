@@ -1060,8 +1060,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1899426392}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1254,6 +1253,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -254.15
       objectReference: {fileID: 0}
+    - target: {fileID: 2515784394026549265, guid: 1ed0bc66a4d56144f8d34b4cb37fed71, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 3884804451575703695, guid: 2464c82881f3a1f45936a1c127eafa9a, type: 3}
+    - target: {fileID: 2515784394026549265, guid: 1ed0bc66a4d56144f8d34b4cb37fed71, type: 3}
+      propertyPath: fillDuration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762457437983595666, guid: 1ed0bc66a4d56144f8d34b4cb37fed71, type: 3}
+      propertyPath: m_MaxValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3811129452616697590, guid: 1ed0bc66a4d56144f8d34b4cb37fed71, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1370,6 +1381,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!4 &1503859857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506545954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.76308, y: -0.06538, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503859858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506545954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ce6560133e8534f81d6392a595f142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthPowerUpSpawner
+  healthPowerUpPrefab: {fileID: 7879630163321029570, guid: 13c870b6054b51940bf8fa2bccd51aa9, type: 3}
+  minSpawnInterval: 1
+  maxSpawnInterval: 2
 --- !u!1 &1506545954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,36 +1428,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1503859857
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503859856}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.76308, y: -0.06538, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1503859858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503859856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55ce6560133e8534f81d6392a595f142, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HealthPowerUpSpawner
-  healthPowerUpPrefab: {fileID: 7879630163321029570, guid: 13c870b6054b51940bf8fa2bccd51aa9, type: 3}
-  minSpawnInterval: 1
-  maxSpawnInterval: 2
 --- !u!1 &1557804461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_health
   maxHealth: 3
-  currentHealth: 3
+  currentHealth: 1
   hearts:
   - {fileID: 1310668649}
   - {fileID: 752207174}
@@ -1595,7 +1606,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 748370082}
-  m_Father: {fileID: 1899426392}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1646,7 +1657,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 117227353}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
         m_MethodName: SelectMedium
         m_Mode: 1
@@ -1862,7 +1873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d5cc2e2257efb947a43041ce3976b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeatherManager
-  useManualWeather: 1
+  useManualWeather: 0
   manualWeather: 0
   apiClient: {fileID: 1284313804}
   effectController: {fileID: 2120821790}
@@ -2057,3 +2068,6 @@ SceneRoots:
   - {fileID: 1765711792}
   - {fileID: 542183832}
   - {fileID: 1503859857}
+  - {fileID: 1291282175}
+  - {fileID: 777841176}
+  - {fileID: 1709079405}
