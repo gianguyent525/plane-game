@@ -19,22 +19,42 @@ public class WeatherApiClient : MonoBehaviour
             yield break;
 
         var response = JsonUtility.FromJson<OpenWeatherResponse>(req.downloadHandler.text);
+        if (response?.weather == null || response.weather.Length == 0)
+            yield break;
+
         var w = response.weather[0];
 
+        Debug.Log($"Received weather: ID={w.id}, Desc={w.description}, Icon={w.icon}");
+        int displayWeatherId = ResolveDisplayWeatherId(w.id);
+        
         callback?.Invoke(new WeatherData
         {
-            weatherType = WeatherCodeMapper.FromWeatherId(w.id),
-            intensity = CalculateIntensity(w.id),
+            weatherType = WeatherCodeMapper.FromWeatherId(displayWeatherId),
+            intensity = CalculateIntensity(displayWeatherId),
             description = w.description,
             iconCode = w.icon
         });
     }
 
+    int ResolveDisplayWeatherId(int weatherId)
+    {
+        if (weatherId < 800)
+            return weatherId;
+
+    
+        int randomStep = Random.Range(0, 7);
+        Debug.Log($"Weather ID 800 (Clear) resolved to {weatherId - (randomStep * 100)}");
+        return weatherId - (randomStep * 100);
+    }
+
     float CalculateIntensity(int id)
     {
-        if (id == 500 || id == 600) return 0.3f;
-        if (id == 501 || id == 601) return 0.6f;
-        if (id >= 502 || id >= 602) return 1f;
+        int last = id % 100;
+
+        if (last == 0) return 0.3f;
+        if (last == 1) return 0.6f;
+        if (last >= 2 && last <= 99) return 1f;
+
         return 0.5f;
     }
 }

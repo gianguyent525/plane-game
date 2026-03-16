@@ -1,10 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ProgressBar : MonoBehaviour
 {
     public Slider slider;   // Reference to the UI Slider
-    public float fillSpeed = 0.2f;
+    public float fillDuration = 180f;
     public GameObject boss; // Reference to the boss
 
     private bool bossSpawned = false;
@@ -13,14 +13,15 @@ public class ProgressBar : MonoBehaviour
     {
         if (slider.value < slider.maxValue)
         {
-            slider.value += Time.deltaTime * fillSpeed;
+            slider.value += (slider.maxValue / fillDuration) * Time.deltaTime;
         }
 
-        // When progress bar is full, spawn boss
         if (!bossSpawned && slider.value >= slider.maxValue)
         {
+            slider.value = slider.maxValue; // tránh vượt quá
             boss.SetActive(true);
             bossSpawned = true;
+            slider.gameObject.SetActive(false);
         }
     }
 }
