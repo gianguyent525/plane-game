@@ -8,6 +8,13 @@ public class BossSpawner : MonoBehaviour
     private GameObject currentBoss;
     private float timer;
 
+    void Start()
+    {
+        // Bí quyết: Gán ngay timer = spawnInterval để khi thanh Progress vừa gọi thằng này dậy,
+        // nó sẽ sinh ra Trùm ngay lập tức ở frame đầu tiên! Sau khi Trùm chết thì nó mới đợi tiếp.
+        timer = spawnInterval;
+    }
+
     void Update()
     {
         // If boss exists, do nothing

@@ -53,6 +53,10 @@ public class LoginController : MonoBehaviour
 
             Debug.Log("Login success: " + response.username);
 
+            // Save the username for later use (e.g., High Score API)
+            PlayerPrefs.SetString("LoggedUsername", response.username);
+            PlayerPrefs.Save();
+
             LoadGameplay();
         }
         else
@@ -64,7 +68,7 @@ public class LoginController : MonoBehaviour
 
     void LoadGameplay()
     {
-        SceneManager.LoadScene("Gameplay2");
+        SceneManager.LoadScene("Gameplay");
     }
 
     void ShowError(string msg)

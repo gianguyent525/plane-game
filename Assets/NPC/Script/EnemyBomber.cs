@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyBomber : MonoBehaviour
 {
@@ -41,8 +41,8 @@ public class EnemyBomber : MonoBehaviour
 
     void Update()
     {
-        // 1. Bay thẳng lên trên
-        transform.Translate(Vector3.up * speed * Time.deltaTime, Space.World);
+        // 1. Bay thẳng xuống dưới để người chơi thấy được
+        transform.Translate(Vector3.down * speed * Time.deltaTime, Space.World);
 
         // 2. Logic thả bom
         timer -= Time.deltaTime;
@@ -52,9 +52,8 @@ public class EnemyBomber : MonoBehaviour
             timer = Random.Range(minSpawnTime, maxSpawnTime);
         }
 
-        // 3. Tự hủy khi bay ra khỏi màn hình
-        // Dùng luôn giá trị maxY vừa tính để biết khi nào bay qua khỏi màn hình
-        if (transform.position.y > maxY + 5f) // +5f để bay hẳn ra ngoài rồi mới xóa
+        // 3. Tự hủy khi bay ra khỏi màn hình ở phía dưới
+        if (transform.position.y < minY - 5f) 
         {
             Destroy(gameObject);
         }

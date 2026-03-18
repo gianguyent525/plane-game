@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyBase : MonoBehaviour
 {
@@ -62,6 +62,12 @@ public class EnemyBase : MonoBehaviour
     {
         // Mặc định là nổ và biến mất
         Debug.Log(gameObject.name + " đã bị tiêu diệt!");
+        
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(scoreValue);
+        }
+
         // Thêm hiệu ứng nổ (Explosion VFX) tại đây nếu có
         Destroy(gameObject);
     }

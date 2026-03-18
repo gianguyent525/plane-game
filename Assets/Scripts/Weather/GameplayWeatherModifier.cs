@@ -22,7 +22,10 @@ public class GameplayWeatherModifier : MonoBehaviour
                 break;
 
             case WeatherType.Snow:
-                //EnemySpawner.Instance.SetSpawnRate(1.3f);
+                if (EnemySpawner.Instance != null)
+                {
+                    EnemySpawner.Instance.SetSpawnRate(1.3f);
+                }
                 player.SetSpeedMultiplier(0.6f);
                 break;
             case WeatherType.Thunderstorm:

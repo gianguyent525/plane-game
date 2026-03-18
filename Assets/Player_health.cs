@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Player_health : MonoBehaviour
@@ -10,7 +10,7 @@ public class Player_health : MonoBehaviour
 
     void Start()
     {
-        //currentHealth = maxHealth;
+        currentHealth = maxHealth; // Đã mở khóa dòng này để bơm máu lúc bắt đầu
         UpdateHearts();
     }
     public void TakeDamage(int amount)
@@ -25,6 +25,19 @@ public class Player_health : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Player chết!");
+            
+            // Submit the final score
+            if (ScoreManager.Instance != null && HighScoreManager.Instance != null)
+            {
+                HighScoreManager.Instance.SubmitScore(ScoreManager.Instance.Score);
+            }
+
+            // Gọi bảng Game Over hiện lên
+            if (ScoreManager.Instance != null)
+            {
+                ScoreManager.Instance.ShowGameOver();
+            }
+
             Destroy(gameObject);
         }
     }
@@ -47,11 +60,12 @@ public class Player_health : MonoBehaviour
         {
             if (i < currentHealth)
             {
-                hearts[i].color = Color.white;  // Full heart
+                hearts[i].color = Color.red;  // Full heart (Màu đỏ cho dễ nhìn)
             }
             else
             {
-                hearts[i].color = Color.black;  // Lost heart
+                // Lost heart (Màu xám mờ để vẫn nhìn thấy mờ mờ chứ ko bị tàng hình trong nền đen)
+                hearts[i].color = new Color(0.5f, 0.5f, 0.5f, 0.5f); 
             }
         }
     }

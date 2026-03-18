@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyKamikaze : EnemyBase
 {
@@ -36,8 +36,14 @@ public class EnemyKamikaze : EnemyBase
         if (isCrashing) return; // Nếu đang rơi rồi thì thôi
 
         isCrashing = true;
+        
+        // Cộng điểm trước khi lao xuống (Vì hàm này ghi đè hàm gốc nên bị mất dòng cộng điểm)
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(scoreValue);
+        }
 
-        // 1. Vô hiệu hóa va chạm để không bị bắn tiếp (hoặc giữ nguyên nếu muốn player né)
+        // 1. Vô hiệu hóa va chạm để không bị bắn tiếp
         // GetComponent<Collider2D>().enabled = false; 
 
         // 2. Tìm vị trí Player hiện tại

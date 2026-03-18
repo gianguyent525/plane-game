@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyBulletMover : MonoBehaviour
 {
@@ -14,8 +14,8 @@ public class EnemyBulletMover : MonoBehaviour
     void Update()
     {
         // Bay xuống dưới (Vì là đạn của địch)
-        // Lưu ý: Nếu đạn bay ngược, đổi Vector3.down thành Vector3.up
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        // Đã sửa Vector3.right thành Vector3.down để bay thẳng xuống đúng nghĩa!
+        transform.Translate(Vector3.down * speed * Time.deltaTime);
     }
 
     // Xử lý khi đạn trúng Player
