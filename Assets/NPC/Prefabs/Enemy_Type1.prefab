@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4836175311358965482}
   - component: {fileID: 4962991536282178660}
   - component: {fileID: 8661220633490851916}
-  - component: {fileID: 2923363114333209473}
+  - component: {fileID: 9092840539875689488}
   m_Layer: 0
   m_Name: Enemy_Type1
   m_TagString: Enemy
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2580403624717562655}
@@ -168,7 +168,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.43, y: 0.37}
   m_EdgeRadius: 0
---- !u!114 &2923363114333209473
+--- !u!114 &9092840539875689488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,17 +177,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 525128570764161569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f12d9f67ae3ee984d8612bab5cd897df, type: 3}
+  m_Script: {fileID: 11500000, guid: 29f35f1dca129b345adfe3cfdb67f5ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
-  hp: 1
+  hp: 3
   moveSpeed: 3
   scoreValue: 100
-  bulletPrefab: {fileID: 592262903411020152, guid: 758cc65dd17758340929ebb66b96c3cd, type: 3}
+  bulletPrefab: {fileID: 592262903411020152, guid: 4e23712508db4bc4998f2c8b1d5d1942, type: 3}
   firePoint: {fileID: 2580403624717562655}
-  fireRate: 1
+  fireRate: 2
   moveDownDistance: 3
-  horizontalTime: 3
+  horizontalTime: 2
   moveRightFirst: 1
 --- !u!1 &7323403059248415576
 GameObject:
@@ -214,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 7323403059248415576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.174, z: 0}
+  m_LocalPosition: {x: 0, y: -0.202, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
