@@ -63,12 +63,13 @@ public class WeatherEffectController : MonoBehaviour
             currentEffect.transform.SetParent(transform.parent, true); // true = keep world position
         }
         
-        // Handle CloudEffect separately
+        // Handle CloudEffect
         if (type == WeatherType.Clouds)
         {
             var cloudEffect = currentEffect.GetComponent<CloudEffect>();
             if (cloudEffect != null)
             {
+                // intensity effect on cloud spawn rate
                 cloudEffect.SetIntensity(intensity);
             }
         }
@@ -87,7 +88,7 @@ public class WeatherEffectController : MonoBehaviour
                 if (type == WeatherType.Thunderstorm)
                 {
                     var main = ps.main;
-                    main.simulationSpeed = 6f;
+                    main.simulationSpeed = Mathf.Lerp(6f, 8f, intensity);
                 }
             }
         }

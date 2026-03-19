@@ -51,9 +51,9 @@ public class WeatherApiClient : MonoBehaviour
     {
         int last = id % 100;
 
-        if (last == 0) return 0.3f;
-        if (last == 1) return 0.6f;
-        if (last >= 2 && last <= 99) return 1f;
+        if (last == 0) return 0.3f; // light intensity
+        if (last == 1) return 0.6f; // medium intensity
+        if (last >= 2 && last <= 99) return 1f; // heavy intensity
 
         return 0.5f;
     }
