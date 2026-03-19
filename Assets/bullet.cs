@@ -21,21 +21,34 @@ public class bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") || other.CompareTag("Boss"))
         {
-            
-
             EnemyBase enemy = other.GetComponent<EnemyBase>();
-
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
                 Debug.Log("Enemy hit!");
+            }
 
+            BossHealth boss = other.GetComponent<BossHealth>();
+            if (boss != null)
+            {
+                boss.TakeDamage(damage);
+                Debug.Log("Boss hit!");
             }
 
             Destroy(gameObject);
+        }
+        else
+        {
+            // Also check if we hit the boss without a specific tag (just in case the tag is Untagged)
+            BossHealth boss = other.GetComponent<BossHealth>();
+            if (boss != null)
+            {
+                boss.TakeDamage(damage);
+                Debug.Log("Boss hit!");
+                Destroy(gameObject);
+            }
         }
     }
 }

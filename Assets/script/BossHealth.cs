@@ -1,105 +1,73 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; // Vẫn cần thư viện này để dùng UI Image
 
 public class BossHealth : MonoBehaviour
 {
-    [Header("Health Settings")]
-    public float baseHealth = 100f;
+    [Header("Chỉ số Boss")]
+    public float baseHealth = 1500f;
     public float healthPerSecond = 5f;
-
-    [Header("Death Settings")]
-    public GameObject deathEffect;
+    public float timeToSpawn = 180f;
 
     private float maxHealth;
     private float currentHealth;
+    protected bool isDead = false;
 
-    private GameObject bossHealthUI;
-    private Image healthBarFill;
+    [Header("UI Liên kết")]
+    [Tooltip("Kéo GameObject chứa nguyên cái khung thanh máu Boss vào đây")]
+    public GameObject healthBarObject;
 
-    private bool isDead = false;
-
-    void Awake()
-    {
-        Canvas canvas = Object.FindFirstObjectByType<Canvas>();
-
-        if (canvas == null)
-        {
-            Debug.LogError("Canvas not found in scene!");
-            return;
-        }
-
-        Transform uiTransform = canvas.transform.Find("BossHealth");
-
-        if (uiTransform == null)
-        {
-            Debug.LogError("BossHealth object not found under Canvas!");
-            return;
-        }
-
-        bossHealthUI = uiTransform.gameObject;
-
-        Transform fill = bossHealthUI.transform.Find("BossHealthFill");
-        healthBarFill = fill.GetComponent<Image>();
-
-        bossHealthUI.SetActive(false);
-    }
+    // --- THAY ĐỔI Ở ĐÂY: Dùng Image thay vì Slider ---
+    [Tooltip("Kéo Image BossHealthFill vào đây")]
+    public Image healthFillImage;
 
     void Start()
     {
-        Debug.Log("Boss Spawned");
-
-        ScaleHealthWithTime();
-
-        if (maxHealth <= 0)
-            maxHealth = baseHealth;
-
+        // Tính toán lượng máu tối đa
+        maxHealth = baseHealth + (healthPerSecond * timeToSpawn);
         currentHealth = maxHealth;
 
-        if (bossHealthUI != null)
-            bossHealthUI.SetActive(true);
-
-        UpdateHealthBar();
-    }
-
-    void ScaleHealthWithTime()
-    {
-        float timeSurvived = Time.timeSinceLevelLoad;
-        maxHealth = baseHealth + (timeSurvived * healthPerSecond);
+        // Đổ đầy thanh máu lúc mới sinh ra (fillAmount = 1 nghĩa là 100%)
+        if (healthFillImage != null)
+        {
+            healthFillImage.fillAmount = 1f;
+        }
     }
 
     public void TakeDamage(float damage)
     {
         if (isDead) return;
 
-        currentHealth -= damage*100;
+        currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         UpdateHealthBar();
+        Debug.Log("Boss HP: " + currentHealth);
 
         if (currentHealth <= 0)
-            Die();
-    }
-
-    void UpdateHealthBar()
-    {
-        if (healthBarFill != null && maxHealth > 0)
         {
-            healthBarFill.fillAmount = currentHealth / maxHealth;
+            Die();
         }
     }
 
-    void Die()
+    private void UpdateHealthBar()
     {
-        if (isDead) return;
+        // --- THAY ĐỔI CÔNG THỨC Ở ĐÂY ---
+        // fillAmount chỉ nhận giá trị từ 0.0 đến 1.0, nên ta lấy Máu Hiện Tại chia cho Máu Tối Đa
+        if (healthFillImage != null)
+        {
+            healthFillImage.fillAmount = currentHealth / maxHealth;
+        }
+    }
+
+    protected void Die()
+    {
         isDead = true;
+        Debug.Log("Boss bị tiêu diệt!");
 
-        Debug.Log("Boss Died");
-
-        if (bossHealthUI != null)
-            bossHealthUI.SetActive(false);
-
-        if (deathEffect != null)
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
+        if (healthBarObject != null)
+        {
+            healthBarObject.SetActive(false);
+        }
 
         Destroy(gameObject);
     }

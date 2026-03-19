@@ -8,9 +8,11 @@ public class ProgressBar : MonoBehaviour
     public GameObject boss;
     public WaveManager waveManager;
 
-    private bool bossSpawned = false;
+    // --- BỔ SUNG 1: Liên kết Canvas của Boss ---
+    [Header("UI Liên kết")]
+    public GameObject bossCanvas;
 
-    // --- BỔ SUNG: Cờ kiểm tra xem game đã bắt đầu chưa ---
+    private bool bossSpawned = false;
     private bool isRunning = false;
 
     // Hàm này sẽ được gọi từ nút Xuất Kích
@@ -19,9 +21,18 @@ public class ProgressBar : MonoBehaviour
         isRunning = true;
     }
 
+    void Start()
+    {
+        // Đảm bảo Boss Canvas tắt lúc mới vào game 
+        if (bossCanvas != null)
+        {
+            bossCanvas.SetActive(false);
+        }
+    }
+
     void Update()
     {
-        // THÊM DÒNG NÀY: Nếu game chưa bắt đầu, bỏ qua không chạy code ở dưới
+        // Nếu game chưa bắt đầu, bỏ qua không chạy code ở dưới
         if (!isRunning) return;
 
         if (slider.value < slider.maxValue)
@@ -33,14 +44,42 @@ public class ProgressBar : MonoBehaviour
         {
             slider.value = slider.maxValue;
 
+            // 1. Kích hoạt Boss
             boss.SetActive(true);
             bossSpawned = true;
+
+            // 2. Tắt thanh tiến trình cũ đi
             slider.gameObject.SetActive(false);
 
+            // 3. BẬT BOSS CANVAS LÊN
+            if (bossCanvas != null)
+            {
+                bossCanvas.SetActive(true);
+            }
+
+            // 4. Ngừng sinh quái từ WaveManager
             if (waveManager != null)
             {
                 waveManager.StopSpawning();
             }
+
+            // 5. BỔ SUNG 2: Dọn sạch quái vật cũ còn sót lại trên màn hình
+            ClearRemainingEnemies();
         }
+    }
+
+    // Hàm dọn dẹp sân chơi cho Boss
+    private void ClearRemainingEnemies()
+    {
+        // Tìm tất cả các object đang có tag "Enemy" (Nhớ đảm bảo Boss KHÔNG dùng tag này, hoặc Boss chưa được gắn tag lúc này)
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject enemy in enemies)
+        {
+            // Tiêu diệt tàn dư (Bạn có thể thêm code sinh ra hiệu ứng nổ ở đây nếu muốn)
+            Destroy(enemy);
+        }
+
+        Debug.Log("HỆ THỐNG: Đã dọn sạch " + enemies.Length + " lính lác cũ để đón Boss!");
     }
 }
