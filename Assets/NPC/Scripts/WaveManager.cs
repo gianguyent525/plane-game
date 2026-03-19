@@ -95,4 +95,10 @@ public class WaveManager : MonoBehaviour
 
         Instantiate(prefab, new Vector3(randomX, spawnY, 0), Quaternion.identity);
     }
+
+    public void StopSpawning()
+    {
+        StopAllCoroutines(); // Hủy ngay lập tức Coroutine RunGameLoop đang chạy
+        Debug.Log("WaveManager: Đã ngừng sinh quái vì Boss xuất hiện!");
+    }
 }

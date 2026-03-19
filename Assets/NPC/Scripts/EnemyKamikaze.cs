@@ -66,7 +66,7 @@ public class EnemyKamikaze : EnemyBase
             Player_health player = other.GetComponent<Player_health>();
             if (player != null)
             {
-                player.TakeDamage(5); // Kamikaze đâm trúng thì trừ nhiều máu (ví dụ 5)
+                player.TakeDamage(1); // Kamikaze đâm trúng thì trừ nhiều máu (ví dụ 5)
             }
             Destroy(gameObject); // Nổ tan xác sau khi đâm
         }

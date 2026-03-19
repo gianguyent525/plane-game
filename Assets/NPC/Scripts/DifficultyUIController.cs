@@ -1,9 +1,15 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.UIElements;
 
 public class DifficultyUIController : MonoBehaviour
 {
+
+    [Header("Liên kết Thanh Tiến Trình")]
+    public ProgressBar progressBar; // Kéo script ProgressBar vào đây
+
+
     [Header("Liên kết UI Chính")]
     public TextMeshProUGUI intelText;
     public GameObject difficultyPanel;
@@ -99,13 +105,19 @@ public class DifficultyUIController : MonoBehaviour
 
     public void ConfirmMission()
     {
-        // 1. Ra lệnh cho WaveManager chạy trước (Nó sẽ tự đếm ngược 2s bên trong script của nó)
+        // 1. Ra lệnh cho WaveManager chạy
         if (waveManager != null)
         {
             waveManager.StartWaves();
         }
 
-        // 2. Sau đó mới tắt Panel UI này đi
+        // 2. RA LỆNH CHO THANH PROGRESS BẮT ĐẦU CHẠY
+        if (progressBar != null)
+        {
+            progressBar.StartProgress();
+        }
+
+        // 3. Tắt Panel UI này đi
         difficultyPanel.SetActive(false);
     }
 
@@ -124,4 +136,6 @@ public class DifficultyUIController : MonoBehaviour
             yield return new WaitForSeconds(typeSpeed);
         }
     }
+
+
 }

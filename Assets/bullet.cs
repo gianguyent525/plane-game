@@ -24,13 +24,15 @@ public class bullet : MonoBehaviour
 
         if (other.CompareTag("Enemy"))
         {
-            Debug.Log("Enemy detected!");
+            
 
             EnemyBase enemy = other.GetComponent<EnemyBase>();
 
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+                Debug.Log("Enemy hit!");
+
             }
 
             Destroy(gameObject);

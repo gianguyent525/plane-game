@@ -20,7 +20,6 @@ public class BossHealth : MonoBehaviour
 
     void Awake()
     {
-        // Unity 6 safe method
         Canvas canvas = Object.FindFirstObjectByType<Canvas>();
 
         if (canvas == null)
@@ -29,7 +28,6 @@ public class BossHealth : MonoBehaviour
             return;
         }
 
-        // Must match name exactly
         Transform uiTransform = canvas.transform.Find("BossHealth");
 
         if (uiTransform == null)
@@ -40,15 +38,9 @@ public class BossHealth : MonoBehaviour
 
         bossHealthUI = uiTransform.gameObject;
 
-        healthBarFill = bossHealthUI.GetComponentInChildren<Image>();
+        Transform fill = bossHealthUI.transform.Find("BossHealthFill");
+        healthBarFill = fill.GetComponent<Image>();
 
-        if (healthBarFill == null)
-        {
-            Debug.LogError("No Image component found inside BossHealth!");
-            return;
-        }
-
-        // Hide at start
         bossHealthUI.SetActive(false);
     }
 
@@ -79,7 +71,7 @@ public class BossHealth : MonoBehaviour
     {
         if (isDead) return;
 
-        currentHealth -= damage;
+        currentHealth -= damage*100;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         UpdateHealthBar();

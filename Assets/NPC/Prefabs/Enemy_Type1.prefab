@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2580403624717562655}
@@ -180,6 +180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f35f1dca129b345adfe3cfdb67f5ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
+  powerUpPrefabs:
+  - {fileID: 7879630163321029570, guid: 13c870b6054b51940bf8fa2bccd51aa9, type: 3}
+  - {fileID: 4554973602897155829, guid: 1dfe9ac5b8110864c81ce2feefa332d2, type: 3}
+  dropChance: 100
   hp: 3
   moveSpeed: 3
   scoreValue: 100
