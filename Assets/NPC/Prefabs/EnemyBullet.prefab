@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2566582916839047114}
   - component: {fileID: 2994391770503446762}
   - component: {fileID: 1645484336312380150}
-  - component: {fileID: 9057852110635633293}
+  - component: {fileID: 8917712605109410618}
   m_Layer: 0
   m_Name: EnemyBullet
   m_TagString: Untagged
@@ -30,8 +30,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.004, y: 0.313, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
@@ -167,7 +167,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.34, y: 0.09}
   m_EdgeRadius: 0
---- !u!114 &9057852110635633293
+--- !u!114 &8917712605109410618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,8 +176,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 592262903411020152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3f2b48d9ba07d7458c264ee3e84eadb, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f63110088d84ab48b0d72212ce02a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBulletMover
-  speed: 6
-  lifeTime: 10
+  speed: 5
+  lifeTime: 5
