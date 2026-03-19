@@ -40,7 +40,7 @@ public class CloudEffect : MonoBehaviour
     {
         if (cloudSprites == null || cloudSprites.Length == 0)
         {
-            Debug.LogError("CloudEffect: Chưa gán cloud sprites! Hãy gán 3 sprite cloud_0, cloud_1, cloud_2");
+            Debug.LogError("CloudEffect: Chưa gán cloud sprites!");
             enabled = false;
             return;
         }
@@ -51,7 +51,10 @@ public class CloudEffect : MonoBehaviour
     public void SetIntensity(float value)
     {
         // thời gian spawn 
-        intensity = Mathf.Clamp01(value);
+        intensity = Mathf.Clamp01(value); // ensure intensity is between 0 and 1
+
+        // nội suy tuyến tính giữa khoảng spawn interval dựa trên intensity
+        // Lerp(a, b, t) = a + (b - a) * t
         minSpawnInterval = Mathf.Lerp(2f, 0.5f, intensity);
         maxSpawnInterval = Mathf.Lerp(5f, 2f, intensity);
     }
