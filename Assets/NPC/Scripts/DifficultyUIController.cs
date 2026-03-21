@@ -35,6 +35,9 @@ public class DifficultyUIController : MonoBehaviour
     public WaveManager waveManager;
     public float typeSpeed = 0.02f;
 
+    [Header("Nhạc nền")]
+    public AudioSource bgmSource;
+
     [Header("Hồ sơ Tình báo")]
     [TextArea(3, 5)] public string easyText = ">>> HỒ SƠ: LÍNH MỚI <<<\n- Đe dọa: Thấp\n- Phản ứng: Chậm\n\n[ĐÁNH GIÁ]: An toàn.";
     [TextArea(3, 5)] public string normalText = ">>> HỒ SƠ: CHIẾN TUYẾN <<<\n- Đe dọa: Trung bình\n- Phản ứng: Nhanh\n\n[ĐÁNH GIÁ]: Cẩn thận đạn pháo.";
@@ -105,6 +108,12 @@ public class DifficultyUIController : MonoBehaviour
 
     public void ConfirmMission()
     {
+        // Bật nhạc nền khi start game
+        if (bgmSource != null && !bgmSource.isPlaying)
+        {
+            bgmSource.Play();
+        }
+
         // 1. Ra lệnh cho WaveManager chạy
         if (waveManager != null)
         {

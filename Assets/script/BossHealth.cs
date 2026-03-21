@@ -8,6 +8,12 @@ public class BossHealth : MonoBehaviour
     public float healthPerSecond = 5f;
     public float timeToSpawn = 180f;
 
+    [Header("Âm thanh chiến thắng")]
+    public AudioClip victoryClip;
+    [Range(0f, 1f)] public float victoryVolume = 1f;
+    [Tooltip("Nhạc nền")]
+    public AudioSource bgmSource;
+
     private float maxHealth;
     private float currentHealth;
     protected bool isDead = false;
@@ -22,6 +28,16 @@ public class BossHealth : MonoBehaviour
 
     void Start()
     {
+        // if (bgmSource == null)
+        // {
+        //     // Tìm đối tượng DifficultyUIController để lấy AudioSource nếu chưa được gán
+        //     DifficultyUIController difficultyUI = FindObjectOfType<DifficultyUIController>();
+        //     if (difficultyUI != null)
+        //     {
+        //         bgmSource = difficultyUI.bgmSource;
+        //     }
+        // }
+
         // Tính toán lượng máu tối đa
         maxHealth = baseHealth + (healthPerSecond * timeToSpawn);
         currentHealth = maxHealth;
@@ -63,6 +79,19 @@ public class BossHealth : MonoBehaviour
     {
         isDead = true;
         Debug.Log("Boss bị tiêu diệt!");
+
+        if (victoryClip != null)
+        {
+            if (bgmSource != null && bgmSource.isPlaying)
+            {
+                bgmSource.Stop();
+            }
+
+            // Phát âm thanh chiến thắng tại vị trí của camera hoặc vị trí của boss
+            Vector3 playPosition = Camera.main != null ? Camera.main.transform.position : transform.position;
+            // Phát âm thanh với âm lượng đã thiết lập
+            AudioSource.PlayClipAtPoint(victoryClip, playPosition, victoryVolume);
+        }
 
         if (healthBarObject != null)
         {
