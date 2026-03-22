@@ -38,6 +38,10 @@ public class DifficultyUIController : MonoBehaviour
     [Header("Nhạc nền")]
     public AudioSource bgmSource;
 
+    [Header("UI cần ẩn khi Start")]
+    public GameObject leaderboardUI;
+    public GameObject logoutUI;
+
     [Header("Hồ sơ Tình báo")]
     [TextArea(3, 5)] public string easyText = ">>> HỒ SƠ: LÍNH MỚI <<<\n- Đe dọa: Thấp\n- Phản ứng: Chậm\n\n[ĐÁNH GIÁ]: An toàn.";
     [TextArea(3, 5)] public string normalText = ">>> HỒ SƠ: CHIẾN TUYẾN <<<\n- Đe dọa: Trung bình\n- Phản ứng: Nhanh\n\n[ĐÁNH GIÁ]: Cẩn thận đạn pháo.";
@@ -128,6 +132,17 @@ public class DifficultyUIController : MonoBehaviour
 
         // 3. Tắt Panel UI này đi
         difficultyPanel.SetActive(false);
+
+        // 4. Ẩn leaderboard và nút logout khi game bắt đầu
+        if (leaderboardUI != null)
+        {
+            leaderboardUI.SetActive(false);
+        }
+
+        if (logoutUI != null)
+        {
+            logoutUI.SetActive(false);
+        }
     }
 
     private void StartTyping(string textToType)

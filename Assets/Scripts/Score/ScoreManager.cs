@@ -6,6 +6,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance { get; private set; }
 
     public int Score { get; private set; }
+    private bool isGameOverShown;
     
     [Header("UI")]
     public TMP_Text scoreTextUI;
@@ -73,6 +74,12 @@ public class ScoreManager : MonoBehaviour
 
     public void ShowGameOver()
     {
+        if (isGameOverShown)
+        {
+            return;
+        }
+        isGameOverShown = true;
+
         // 1. Hiển thị bảng Game Over
         if (gameOverPanel != null)
         {
@@ -85,10 +92,10 @@ public class ScoreManager : MonoBehaviour
             finalScoreText.text = "Final Score: " + Score.ToString();
         }
 
-        // Tự động Tải Bảng Xếp Hạng từ Database Backend về
+        // Tự động gửi điểm và tải lại bảng xếp hạng
         if (HighScoreManager.Instance != null)
         {
-            HighScoreManager.Instance.GetTopScores();
+            HighScoreManager.Instance.SubmitScoreAndRefresh(Score);
         }
 
         // 3. Đóng băng thời gian trò chơi (Dừng mọi sự vật)
@@ -112,6 +119,8 @@ public class ScoreManager : MonoBehaviour
 
     public void RestartGame()
     {
+        isGameOverShown = false;
+
         // Nhả đóng băng thời gian và Tải lại màn chơi hiện tại
         Time.timeScale = 1f;
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);

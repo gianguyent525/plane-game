@@ -1,15 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEngine.Networking;
 
 [System.Serializable]
-public class HighScoreRequest
+public class SubmitScoreRequest
 {
-    public string username;
     public int score;
 }
 
@@ -33,7 +30,10 @@ public class HighScoreManager : MonoBehaviour
     [Header("UI Bảng Xếp Hạng")]
     public TMP_Text highScoreTextUI;
 
-    private string baseUrl = "http://localhost:8080/api/highscores";
+    [Header("API")]
+    [SerializeField] private string apiBaseUrl = "https://localhost:8080";
+    [SerializeField] private int leaderboardTop = 10;
+    [SerializeField] private bool ignoreSslCertificateInEditor = true;
 
     private void Awake()
     {
@@ -48,38 +48,51 @@ public class HighScoreManager : MonoBehaviour
 
     public void SubmitScore(int score)
     {
-        string username = PlayerPrefs.GetString("LoggedUsername", "");
-        if (string.IsNullOrEmpty(username))
-        {
-            Debug.LogWarning("Cannot submit score: No username logged in.");
-            return;
-        }
-
-        StartCoroutine(SendScoreCoroutine(username, score));
+        StartCoroutine(SendScoreCoroutine(score));
     }
 
-    private IEnumerator SendScoreCoroutine(string username, int score)
+    public void SubmitScoreAndRefresh(int score)
     {
-        HighScoreRequest requestData = new HighScoreRequest
+        StartCoroutine(SubmitScoreAndRefreshCoroutine(score));
+    }
+
+    private IEnumerator SubmitScoreAndRefreshCoroutine(int score)
+    {
+        yield return SendScoreCoroutine(score);
+        yield return GetTopScoresCoroutine();
+    }
+
+    private IEnumerator SendScoreCoroutine(int score)
+    {
+        var token = PlayerPrefs.GetString("AuthToken", "");
+        if (string.IsNullOrWhiteSpace(token))
         {
-            username = username,
+            Debug.LogWarning("Cannot submit score: missing auth token.");
+            yield break;
+        }
+
+        SubmitScoreRequest requestData = new SubmitScoreRequest
+        {
             score = score
         };
 
         string json = JsonUtility.ToJson(requestData);
+        var submitUrl = apiBaseUrl + "/api/Game/submit-score";
 
-        UnityWebRequest request = new UnityWebRequest(baseUrl, "POST");
+        UnityWebRequest request = new UnityWebRequest(submitUrl, "POST");
         byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
 
         request.uploadHandler = new UploadHandlerRaw(bodyRaw);
         request.downloadHandler = new DownloadHandlerBuffer();
         request.SetRequestHeader("Content-Type", "application/json");
+        request.SetRequestHeader("Authorization", "Bearer " + token);
+        ConfigureCertificateHandling(request);
 
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            Debug.Log("Score submitted successfully for " + username + ": " + score);
+            Debug.Log("Score submitted successfully: " + score);
         }
         else
         {
@@ -99,7 +112,9 @@ public class HighScoreManager : MonoBehaviour
             highScoreTextUI.text = "Đang tải Bảng Xếp Hạng...";
         }
 
-        UnityWebRequest request = UnityWebRequest.Get(baseUrl + "/top");
+        var leaderboardUrl = apiBaseUrl + "/api/Game/leaderboard?top=" + leaderboardTop;
+        UnityWebRequest request = UnityWebRequest.Get(leaderboardUrl);
+        ConfigureCertificateHandling(request);
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
@@ -112,7 +127,7 @@ public class HighScoreManager : MonoBehaviour
             if (list != null && list.items != null && highScoreTextUI != null)
             {
                 StringBuilder sb = new StringBuilder();
-                sb.AppendLine("--- BẢNG VÀNG THÀNH TÍCH ---");
+                sb.AppendLine("--- LeaderBoard ---");
                 for (int i = 0; i < list.items.Length; i++)
                 {
                     sb.AppendLine((i + 1) + ". " + list.items[i].username + " - " + list.items[i].score);
@@ -134,5 +149,16 @@ public class HighScoreManager : MonoBehaviour
                 highScoreTextUI.text = "Lỗi kết nối máy chủ!";
             }
         }
+    }
+
+    private void ConfigureCertificateHandling(UnityWebRequest request)
+    {
+#if UNITY_EDITOR
+        if (ignoreSslCertificateInEditor)
+        {
+            request.certificateHandler = new DevCertificateHandler();
+            request.disposeCertificateHandlerOnDispose = true;
+        }
+#endif
     }
 }
