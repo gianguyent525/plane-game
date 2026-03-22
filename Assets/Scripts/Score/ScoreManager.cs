@@ -104,6 +104,12 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public void OnContinueButtonClicked()
+    {
+        // restart game when click continue button
+        RestartGame();
+    }
+
     public void RestartGame()
     {
         // Nhả đóng băng thời gian và Tải lại màn chơi hiện tại
