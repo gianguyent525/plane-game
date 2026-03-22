@@ -204,3 +204,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthPowerUp
   fallSpeed: 3
   healAmount: 1
+  pickupClip: {fileID: 8300000, guid: 3bfbef7ea461212438bd36ad65283d5d, type: 3}
+  pickupVolume: 1

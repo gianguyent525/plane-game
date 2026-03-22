@@ -4,6 +4,8 @@ public class HealthPowerUp : MonoBehaviour
 {
     public float fallSpeed = 2f; 
     public int healAmount = 1;   
+    public AudioClip pickupClip;
+    [Range(0f, 1f)] public float pickupVolume = 1f;
 
     private Camera _cam;
 
@@ -44,6 +46,11 @@ public class HealthPowerUp : MonoBehaviour
             {
                 playerHealth.Heal(healAmount);
                 Debug.Log("Player đã hồi máu!");
+            }
+
+            if (pickupClip != null)
+            {
+                AudioSource.PlayClipAtPoint(pickupClip, transform.position, pickupVolume);
             }
 
             Destroy(gameObject);

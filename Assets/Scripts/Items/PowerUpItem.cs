@@ -3,6 +3,8 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour
 {
     public float fallSpeed = 2f;
+    public AudioClip pickupClip;
+    [Range(0f, 1f)] public float pickupVolume = 1f;
 
     private Camera _cam;
 
@@ -35,25 +37,30 @@ public class PowerUp : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-    if (other.CompareTag("Player"))
-    {
-        mainweapon[] weapons = other.GetComponentsInChildren<mainweapon>();
-
-        if (weapons.Length > 0)
+        if (other.CompareTag("Player"))
         {
-            foreach (mainweapon weapon in weapons)
+            mainweapon[] weapons = other.GetComponentsInChildren<mainweapon>();
+
+            if (weapons.Length > 0)
             {
-                weapon.bulletCount = Mathf.Min(weapon.bulletCount + 1, weapon.maxBullet);
-                weapon.ResetDecayTimer();
-                Debug.Log("bulletCount = " + weapon.bulletCount);
+                foreach (mainweapon weapon in weapons)
+                {
+                    weapon.bulletCount = Mathf.Min(weapon.bulletCount + 1, weapon.maxBullet);
+                    weapon.ResetDecayTimer();
+                    Debug.Log("bulletCount = " + weapon.bulletCount);
+                }
             }
-        }
-        else
-        {
-            Debug.LogWarning("Không tìm thấy mainweapon trên Player!");
-        }
+            else
+            {
+                Debug.LogWarning("Không tìm thấy mainweapon trên Player!");
+            }
 
-        Destroy(gameObject);
-    }
+            if (pickupClip != null)
+            {
+                AudioSource.PlayClipAtPoint(pickupClip, transform.position, pickupVolume);
+            }
+
+            Destroy(gameObject);
+        }
     }
 }
