@@ -888,8 +888,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 323.33334, y: -790}
-  m_SizeDelta: {x: 450, y: 70}
+  m_AnchoredPosition: {x: 307.04, y: -791.03}
+  m_SizeDelta: {x: 427.41, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329482284
 MonoBehaviour:
@@ -3632,6 +3632,8 @@ MonoBehaviour:
   - {fileID: 1310668649}
   - {fileID: 752207174}
   - {fileID: 624757840}
+  playerDeathClip: {fileID: 8300000, guid: a4c4e5cc1da055c48a6fa290f296b6fe, type: 3}
+  playerDeathVolume: 1
   gameOverClip: {fileID: 8300000, guid: c7bc0175edb938b488448f5f4be51d16, type: 3}
   gameOverVolume: 1
 --- !u!1 &1630848923
@@ -4172,8 +4174,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.3332825, y: -250}
-  m_SizeDelta: {x: -180.00006, y: -1000}
+  m_AnchoredPosition: {x: 3.3332825, y: -222.06}
+  m_SizeDelta: {x: -180, y: -1055.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803906681
 MonoBehaviour:

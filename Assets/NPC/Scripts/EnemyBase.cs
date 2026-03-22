@@ -14,6 +14,8 @@ public class EnemyBase : MonoBehaviour
     public float hp = 3;
     public float moveSpeed = 3f;
     public int scoreValue = 100;
+    public AudioClip enemyDeathClip;
+    [Range(0f, 1f)] public float enemyDeathVolume = 1f;
     protected bool isDead = false;
     private bool scoreAwarded = false;
 
@@ -89,6 +91,12 @@ public class EnemyBase : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+
+        if (enemyDeathClip != null)
+        {
+            Vector3 playPosition = Camera.main != null ? Camera.main.transform.position : transform.position;
+            AudioSource.PlayClipAtPoint(enemyDeathClip, playPosition, enemyDeathVolume);
+        }
 
         DropPowerUp();
 

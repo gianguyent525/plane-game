@@ -41,6 +41,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &8223274319116463216
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -86,6 +87,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 833564068487239354, guid: 6e6f8a48bb0037b4b8cb499364d62771, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,7 +97,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3407448841886800494
 BoxCollider2D:
@@ -205,6 +206,8 @@ MonoBehaviour:
   spawnTime: 0
   difficultyMultiplier: 0.01
   currentPattern: 2
+  minPatternChangeTime: 3
+  maxPatternChangeTime: 5
   spreadBulletCount: 5
   spreadAngle: 60
   sideAngle: 25
@@ -239,9 +242,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossHealth
   baseHealth: 100
   healthPerSecond: 5
-  bossHealthUI: {fileID: 3256539055326562788, guid: dcb2be424100b294cbce8eebe1118d2a, type: 3}
-  healthBarFill: {fileID: 0}
-  deathEffect: {fileID: 0}
+  timeToSpawn: 180
+  scoreValue: 1000
+  bossDeathClip: {fileID: 8300000, guid: 406befd50d00bb447bcbcc5a715ae4d6, type: 3}
+  bossDeathVolume: 1
+  victoryClip: {fileID: 8300000, guid: 51d125dfa6fe95e4dad79381b44692c2, type: 3}
+  victoryVolume: 1
+  bgmSource: {fileID: 0}
+  healthBarObject: {fileID: 0}
+  healthFillImage: {fileID: 0}
 --- !u!1 &7474474943759348783
 GameObject:
   m_ObjectHideFlags: 0

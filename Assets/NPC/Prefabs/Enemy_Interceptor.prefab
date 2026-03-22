@@ -180,10 +180,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyInterceptor
   powerUpPrefabs: []
-  dropChance: 20
+  dropChance: 50
   hp: 3
   moveSpeed: 3
   scoreValue: 100
+  enemyDeathClip: {fileID: 8300000, guid: b993bce2c2a761644a4fd0ae45de5376, type: 3}
+  enemyDeathVolume: 1
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 0}
   fireRate: 2

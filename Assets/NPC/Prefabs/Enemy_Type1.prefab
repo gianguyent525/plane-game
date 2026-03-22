@@ -183,10 +183,12 @@ MonoBehaviour:
   powerUpPrefabs:
   - {fileID: 7879630163321029570, guid: 13c870b6054b51940bf8fa2bccd51aa9, type: 3}
   - {fileID: 4554973602897155829, guid: 1dfe9ac5b8110864c81ce2feefa332d2, type: 3}
-  dropChance: 100
+  dropChance: 50
   hp: 3
   moveSpeed: 3
   scoreValue: 100
+  enemyDeathClip: {fileID: 8300000, guid: b993bce2c2a761644a4fd0ae45de5376, type: 3}
+  enemyDeathVolume: 1
   bulletPrefab: {fileID: 592262903411020152, guid: 4e23712508db4bc4998f2c8b1d5d1942, type: 3}
   firePoint: {fileID: 2580403624717562655}
   fireRate: 2

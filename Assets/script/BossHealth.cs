@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI; // Vẫn cần thư viện này để dùng UI Image
+using System.Collections;
 
 public class BossHealth : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class BossHealth : MonoBehaviour
     public int scoreValue = 1000;
 
     [Header("Âm thanh chiến thắng")]
+    public AudioClip bossDeathClip;
+    [Range(0f, 1f)] public float bossDeathVolume = 1f;
     public AudioClip victoryClip;
     [Range(0f, 1f)] public float victoryVolume = 1f;
     [Tooltip("Nhạc nền")]
@@ -81,27 +84,46 @@ public class BossHealth : MonoBehaviour
         isDead = true;
         Debug.Log("Boss bị tiêu diệt!");
 
+        Player_health player = FindFirstObjectByType<Player_health>();
+        if (player != null)
+        {
+            player.SetInvulnerable(true);
+        }
+
         if (ScoreManager.Instance != null)
         {
             ScoreManager.Instance.AddScore(scoreValue);
         }
 
-        if (victoryClip != null)
+        if (bgmSource != null && bgmSource.isPlaying)
         {
-            if (bgmSource != null && bgmSource.isPlaying)
-            {
-                bgmSource.Stop();
-            }
-
-            // Phát âm thanh chiến thắng tại vị trí của camera hoặc vị trí của boss
-            Vector3 playPosition = Camera.main != null ? Camera.main.transform.position : transform.position;
-            // Phát âm thanh với âm lượng đã thiết lập
-            AudioSource.PlayClipAtPoint(victoryClip, playPosition, victoryVolume);
+            bgmSource.Stop();
         }
 
         if (healthBarObject != null)
         {
             healthBarObject.SetActive(false);
+        }
+
+        // hàm bất đồng bộ phát âm thanh và xử lý kết thúc sau khi boss chết
+        StartCoroutine(HandleDeathAudioAndEnd());
+    }
+
+    private IEnumerator HandleDeathAudioAndEnd()
+    {
+        Vector3 playPosition = Camera.main != null ? Camera.main.transform.position : transform.position;
+
+        if (bossDeathClip != null)
+        {
+            // Phát âm thanh chết của boss
+            AudioSource.PlayClipAtPoint(bossDeathClip, playPosition, bossDeathVolume);
+            yield return new WaitForSeconds(bossDeathClip.length);
+        }
+
+        if (victoryClip != null)
+        {
+            // Phát âm thanh chiến thắng sau khi âm thanh chết của boss kết thúc
+            AudioSource.PlayClipAtPoint(victoryClip, playPosition, victoryVolume);
         }
 
         if (ScoreManager.Instance != null)
