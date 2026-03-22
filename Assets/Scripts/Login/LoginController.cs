@@ -64,7 +64,7 @@ public class LoginController : MonoBehaviour
 
     void LoadGameplay()
     {
-        SceneManager.LoadScene("Gameplay2");
+        SceneManager.LoadScene("Gameplay");
     }
 
     void ShowError(string msg)
