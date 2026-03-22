@@ -7,6 +7,7 @@ public class BossHealth : MonoBehaviour
     public float baseHealth = 1500f;
     public float healthPerSecond = 5f;
     public float timeToSpawn = 180f;
+    public int scoreValue = 1000;
 
     [Header("Âm thanh chiến thắng")]
     public AudioClip victoryClip;
@@ -80,6 +81,11 @@ public class BossHealth : MonoBehaviour
         isDead = true;
         Debug.Log("Boss bị tiêu diệt!");
 
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(scoreValue);
+        }
+
         if (victoryClip != null)
         {
             if (bgmSource != null && bgmSource.isPlaying)
@@ -96,6 +102,11 @@ public class BossHealth : MonoBehaviour
         if (healthBarObject != null)
         {
             healthBarObject.SetActive(false);
+        }
+
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.ShowGameOver();
         }
 
         Destroy(gameObject);
