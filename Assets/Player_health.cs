@@ -36,6 +36,11 @@ public class Player_health : MonoBehaviour
                 AudioSource.PlayClipAtPoint(gameOverClip, playPosition, gameOverVolume);
             }
 
+            if (ScoreManager.Instance != null)
+            {
+                ScoreManager.Instance.ShowGameOver();
+            }
+
             Destroy(gameObject);
         }
     }

@@ -14,6 +14,8 @@ public class EnemyBase : MonoBehaviour
     public float hp = 3;
     public float moveSpeed = 3f;
     public int scoreValue = 100;
+    protected bool isDead = false;
+    private bool scoreAwarded = false;
 
     [Header("Vũ khí")]
     public GameObject bulletPrefab;
@@ -68,12 +70,26 @@ public class EnemyBase : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isDead) return;
+
         hp -= damage;
-        if (hp <= 0) Die();
+        if (hp <= 0)
+        {
+            if (!scoreAwarded && ScoreManager.Instance != null)
+            {
+                ScoreManager.Instance.AddScore(scoreValue);
+                scoreAwarded = true;
+            }
+
+            Die();
+        }
     }
 
     protected virtual void Die()
     {
+        if (isDead) return;
+        isDead = true;
+
         DropPowerUp();
 
         // Tạo hiệu ứng nổ, cộng điểm ở đây
