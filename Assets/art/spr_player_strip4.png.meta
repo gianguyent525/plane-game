@@ -105,7 +105,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
+        width: 89
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -125,9 +125,9 @@ TextureImporter:
       name: spr_player_strip4_1
       rect:
         serializedVersion: 2
-        x: 88
+        x: 89
         y: 0
-        width: 88
+        width: 89
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f02055425497e4f90b9be1b0aa7d0d
-      internalID: 463374618
+      spriteID: 57834615a22ff524091f3d489eed4e04
+      internalID: -1127824342
       vertices: []
       indices: 
       edges: []
@@ -147,9 +147,9 @@ TextureImporter:
       name: spr_player_strip4_2
       rect:
         serializedVersion: 2
-        x: 176
+        x: 178
         y: 0
-        width: 88
+        width: 89
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -159,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23c8f30d89c4f214f94137b3f4a4f9e8
-      internalID: -1687701698
+      spriteID: 815895fe721211a4bbdf5bcb5620b64e
+      internalID: 689914093
       vertices: []
       indices: 
       edges: []
@@ -169,9 +169,9 @@ TextureImporter:
       name: spr_player_strip4_3
       rect:
         serializedVersion: 2
-        x: 264
+        x: 267
         y: 0
-        width: 88
+        width: 89
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15accf4d315b6e04b82fdf9c1d904104
-      internalID: -587601720
+      spriteID: cb5e8a2702fc7424f858b1582bac1068
+      internalID: 1872130469
       vertices: []
       indices: 
       edges: []
@@ -201,14 +201,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":88.0,"y":55.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":89.0,"y":55.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
       - key: SpriteEditor.SliceOnImport
         value: False
     nameFileIdTable:
       spr_player_strip4_0: 4056415550954931884
-      spr_player_strip4_1: 463374618
-      spr_player_strip4_2: -1687701698
-      spr_player_strip4_3: -587601720
+      spr_player_strip4_1: -1127824342
+      spr_player_strip4_2: 689914093
+      spr_player_strip4_3: 1872130469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

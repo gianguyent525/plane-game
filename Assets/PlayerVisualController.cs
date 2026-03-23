@@ -9,8 +9,6 @@ public enum GameDifficulty
 
 public class PlayerVisualController : MonoBehaviour
 {
-    public GameDifficulty currentDifficulty;
-
     public RuntimeAnimatorController easyController;
     public RuntimeAnimatorController normalController;
     public RuntimeAnimatorController hardController;
@@ -20,14 +18,18 @@ public class PlayerVisualController : MonoBehaviour
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
-        ApplyDifficulty();
-        Debug.Log("diffi " + currentDifficulty);
+        ApplyDifficulty(DifficultyManager.currentDifficulty);
     }
 
-    void ApplyDifficulty()
+    public void ApplyDifficulty(GameDifficulty difficulty)
     {
-        
-        switch (currentDifficulty)
+        if (animator == null)
+        {
+            animator = GetComponentInChildren<Animator>();
+            if (animator == null) return;
+        }
+
+        switch (difficulty)
         {
             case GameDifficulty.Easy:
                 animator.runtimeAnimatorController = easyController;

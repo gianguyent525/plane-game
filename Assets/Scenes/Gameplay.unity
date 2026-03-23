@@ -1665,6 +1665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 596159718}
   - component: {fileID: 596159719}
+  - component: {fileID: 596159720}
   m_Layer: 0
   m_Name: spr_player_strip4_0
   m_TagString: Untagged
@@ -1746,6 +1747,28 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &596159720
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596159717}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76838207288aca74e9b212bb1ad4b838, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,6 +1995,7 @@ MonoBehaviour:
   colorNormal: {r: 1, g: 0.7, b: 0, a: 1}
   colorHard: {r: 1, g: 0.2, b: 0.2, a: 1}
   waveManager: {fileID: 397839656}
+  playerVisualController: {fileID: 1557804467}
   typeSpeed: 0.02
   bgmSource: {fileID: 212062160}
   leaderboardUI: {fileID: 1984661332}
@@ -3913,6 +3937,7 @@ GameObject:
   - component: {fileID: 1557804462}
   - component: {fileID: 1557804465}
   - component: {fileID: 1557804466}
+  - component: {fileID: 1557804467}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4050,6 +4075,21 @@ MonoBehaviour:
   playerDeathVolume: 1
   gameOverClip: {fileID: 8300000, guid: c7bc0175edb938b488448f5f4be51d16, type: 3}
   gameOverVolume: 1
+--- !u!114 &1557804467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557804461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f15165f1795e64fa4f7386c815b9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerVisualController
+  easyController: {fileID: 9100000, guid: f327b413301989d4689c590e445adf8f, type: 2}
+  normalController: {fileID: 9100000, guid: 231c99a68d3372749a07937f367ead3a, type: 2}
+  hardController: {fileID: 9100000, guid: 729ceaf18acfa0b468a10bcd5050e53a, type: 2}
 --- !u!1 &1630848923
 GameObject:
   m_ObjectHideFlags: 0

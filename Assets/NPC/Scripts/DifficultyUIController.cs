@@ -33,6 +33,7 @@ public class DifficultyUIController : MonoBehaviour
 
     [Header("Liên kết Logic")]
     public WaveManager waveManager;
+    public PlayerVisualController playerVisualController;
     public float typeSpeed = 0.02f;
 
     [Header("Nhạc nền")]
@@ -51,11 +52,21 @@ public class DifficultyUIController : MonoBehaviour
 
     void Start()
     {
+        if (playerVisualController == null)
+        {
+            playerVisualController = FindObjectOfType<PlayerVisualController>();
+        }
+
         intelText.text = "CHỜ LỆNH CHỈ HUY...\nHãy chọn một chiến dịch bên trái.";
         difficultyPanel.SetActive(true);
 
         // CẬP NHẬT: Vừa reset màu chữ, vừa reset đèn glow
         ResetAllVisuals();
+
+        if (playerVisualController != null)
+        {
+            playerVisualController.ApplyDifficulty(DifficultyManager.currentDifficulty);
+        }
     }
 
     // TÊN HÀM ĐƯỢC ĐỔI (từ ResetAllButtons thành ResetAllVisuals cho đúng ý nghĩa)
@@ -83,6 +94,11 @@ public class DifficultyUIController : MonoBehaviour
         txtEasy.color = colorEasy;       // Đổi màu chữ (Code gốc)
         if (glowEasy != null) glowEasy.SetSelected(true); // Giữ đèn sáng (Bổ sung mới)
 
+        if (playerVisualController != null)
+        {
+            playerVisualController.ApplyDifficulty(DifficultyManager.currentDifficulty);
+        }
+
         StartTyping(easyText);
     }
 
@@ -94,6 +110,11 @@ public class DifficultyUIController : MonoBehaviour
 
         txtNormal.color = colorNormal;
         if (glowNormal != null) glowNormal.SetSelected(true);
+
+        if (playerVisualController != null)
+        {
+            playerVisualController.ApplyDifficulty(DifficultyManager.currentDifficulty);
+        }
 
         StartTyping(normalText);
     }
@@ -107,11 +128,21 @@ public class DifficultyUIController : MonoBehaviour
         txtHard.color = colorHard;
         if (glowHard != null) glowHard.SetSelected(true);
 
+        if (playerVisualController != null)
+        {
+            playerVisualController.ApplyDifficulty(DifficultyManager.currentDifficulty);
+        }
+
         StartTyping(hardText);
     }
 
     public void ConfirmMission()
     {
+        if (playerVisualController != null)
+        {
+            playerVisualController.ApplyDifficulty(DifficultyManager.currentDifficulty);
+        }
+
         // Bật nhạc nền khi start game
         if (bgmSource != null && !bgmSource.isPlaying)
         {
